@@ -12,33 +12,33 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
-    cdnCaching: true
+    fontOrigin: local # Enforces air-gapped typography (cdn.iamrp.dev)
+    cdnCaching: false
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: "JetBrains Mono"
+      body: "JetBrains Mono"
+      code: "JetBrains Mono"
     colors:
-      lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#8b5000"
-        tertiary: "#6f5b40"
-        highlight: rgba(139, 80, 0, 0.15)
-        textHighlight: "#fff23688"
-      darkMode:
-        light: "#161412"
-        lightgray: "#2e2720"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#ffb870"
-        tertiary: "#dcc2a4"
-        highlight: rgba(255, 184, 112, 0.15)
-        textHighlight: "#b3aa0288"
+      lightMode: # Repurposed as "ANSI Dark Mode"
+        light: "#000000" # Pure black background
+        lightgray: "#1c1c1c" # Subtle borders
+        gray: "#767676" # Muted metadata
+        darkgray: "#cccccc" # Primary body text
+        dark: "#ffffff" # Bright headings
+        secondary: "#00afaf" # ANSI Cyan for links
+        tertiary: "#5fafd7" # ANSI Light Cyan for hover
+        highlight: rgba(0, 175, 175, 0.15)
+        textHighlight: rgba(0, 175, 175, 0.25)
+      darkMode: # Custom Sovereign Space Purple-Black & Cyan
+        light: "#0d0914" # Deep space purple-black background
+        lightgray: "#1e1b2e" # Elevated UI panels/search bar
+        gray: "#8b889c" # Muted text with a purple tint
+        darkgray: "#e2e1e8" # Standard body text
+        dark: "#ffffff" # Headings
+        secondary: "#00afaf" # ANSI Cyan for primary links & Graph nodes
+        tertiary: "#5fafd7" # ANSI Light Cyan for hover states & interaction
+        highlight: rgba(0, 175, 175, 0.15) # Faint cyan link background
+        textHighlight: rgba(0, 175, 175, 0.25) # Cyan markdown highlight (==text==)
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true

@@ -16,8 +16,9 @@ $mobile: "(max-width: #{map.get($breakpoints, mobile)})";
 $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.get($breakpoints, desktop)})";
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
-$pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 320px; //380px;
+$pageWidth: 100%;
+$sidePanelWidth: minmax(260px, 22%);
+$rightPanelWidth: minmax(220px, 18%);
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
@@ -25,34 +26,25 @@ $normalWeight: 400;
 
 $mobileGrid: (
   templateRows: "auto auto auto auto auto",
-  templateColumns: "auto",
+  templateColumns: "100%",
   rowGap: "5px",
   columnGap: "5px",
   templateAreas:
-    '"grid-sidebar-left"\
-      "grid-header"\
-      "grid-center"\
-      "grid-sidebar-right"\
-      "grid-footer"',
+    '"grid-sidebar-left"      "grid-header"      "grid-center"      "grid-sidebar-right"      "grid-footer"',
 );
 $tabletGrid: (
   templateRows: "auto auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto",
+  templateColumns: "minmax(250px, 28%) 1fr",
   rowGap: "5px",
-  columnGap: "5px",
+  columnGap: "1.25rem",
   templateAreas:
-    '"grid-sidebar-left grid-header"\
-      "grid-sidebar-left grid-center"\
-      "grid-sidebar-left grid-sidebar-right"\
-      "grid-sidebar-left grid-footer"',
+    '"grid-sidebar-left grid-header"      "grid-sidebar-left grid-center"      "grid-sidebar-left grid-sidebar-right"      "grid-sidebar-left grid-footer"',
 );
 $desktopGrid: (
   templateRows: "auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
+  templateColumns: "minmax(260px, 22%) 1fr minmax(220px, 18%)",
   rowGap: "5px",
-  columnGap: "5px",
+  columnGap: "1.5rem",
   templateAreas:
-    '"grid-sidebar-left grid-header grid-sidebar-right"\
-      "grid-sidebar-left grid-center grid-sidebar-right"\
-      "grid-sidebar-left grid-footer grid-sidebar-right"',
+    '"grid-sidebar-left grid-header grid-sidebar-right"      "grid-sidebar-left grid-center grid-sidebar-right"      "grid-sidebar-left grid-footer grid-sidebar-right"',
 );

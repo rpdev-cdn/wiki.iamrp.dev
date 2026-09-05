@@ -55,6 +55,13 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <span class="card-tag">Troubleshooting →</span>
   </a>
 
+  <a class="portal-card" href="projects/">
+    <div class="card-icon">🏗️</div>
+    <div class="card-title">Projects Documentation Hub</div>
+    <div class="card-desc">Comprehensive technical manuals, fleet runbooks, OpenWrt guides, and hardware security specs for all projects.</div>
+    <span class="card-tag">All Projects →</span>
+  </a>
+
   <a class="portal-card" href="developers/">
     <div class="card-icon">🛠️</div>
     <div class="card-title">Developer & Power User Hub</div>
