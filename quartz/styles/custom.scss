@@ -1,3 +1,253 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ==========================================
+// RPDev Wiki Custom Styling System
+// Dual-Lens: End-User Friendly + Tech Deep Dive
+// ==========================================
+
+// --- Hero & Header Typography ---
+.wiki-hero {
+  background: linear-gradient(135deg, rgba(255, 184, 112, 0.08) 0%, rgba(139, 80, 0, 0.04) 100%);
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: var(--secondary);
+  }
+
+  p {
+    margin-bottom: 0;
+    color: var(--darkgray);
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+}
+
+// --- Quick Navigation Portal Cards ---
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.portal-card {
+  display: block;
+  text-decoration: none !important;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  padding: 1.25rem;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    border-color: var(--secondary);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .card-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 0.4rem;
+  }
+
+  .card-desc {
+    font-size: 0.92rem;
+    color: var(--darkgray);
+    line-height: 1.45;
+  }
+
+  .card-tag {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--secondary);
+    letter-spacing: 0.5px;
+  }
+}
+
+// --- Badge Pills ---
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  margin: 0.2rem 0.25rem 0.2rem 0;
+  line-height: 1.2;
+
+  &.badge-green {
+    background-color: rgba(40, 167, 69, 0.15);
+    color: #28a745;
+    border: 1px solid rgba(40, 167, 69, 0.3);
+  }
+
+  &.badge-blue {
+    background-color: rgba(33, 150, 243, 0.15);
+    color: #1e88e5;
+    border: 1px solid rgba(33, 150, 243, 0.3);
+  }
+
+  &.badge-amber {
+    background-color: rgba(255, 152, 0, 0.15);
+    color: #f57c00;
+    border: 1px solid rgba(255, 152, 0, 0.3);
+  }
+
+  &.badge-purple {
+    background-color: rgba(156, 39, 176, 0.15);
+    color: #ab47bc;
+    border: 1px solid rgba(156, 39, 176, 0.3);
+  }
+
+  &.badge-gray {
+    background-color: rgba(158, 158, 158, 0.15);
+    color: var(--darkgray);
+    border: 1px solid var(--lightgray);
+  }
+}
+
+// --- Step-by-Step Instructions for End Users ---
+.step-list {
+  margin: 1.5rem 0;
+}
+
+.step-item {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+
+  .step-num {
+    flex-shrink: 0;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .step-content {
+    flex-grow: 1;
+
+    h4 {
+      margin: 0 0 0.4rem 0;
+      font-size: 1.1rem;
+      color: var(--dark);
+    }
+
+    p {
+      margin: 0 0 0.5rem 0;
+      color: var(--darkgray);
+      line-height: 1.45;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// --- Collapsible Technical Deep Dives (<details class="tech-spec">) ---
+details.tech-spec {
+  margin: 1.75rem 0;
+  border: 1px solid var(--lightgray);
+  border-left: 4px solid var(--secondary);
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 0.75rem 1rem;
+  transition: background-color 0.2s ease;
+
+  summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--secondary);
+    padding: 0.25rem 0;
+    user-select: none;
+    outline: none;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  .tech-content {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed var(--lightgray);
+    font-size: 0.95rem;
+
+    h4, h5 {
+      color: var(--dark);
+      margin-top: 1rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+}
+
+// --- User Action Callouts ---
+.user-tip {
+  background-color: rgba(78, 84, 200, 0.06);
+  border-left: 4px solid #4e54c8;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+
+  .tip-title {
+    font-weight: 700;
+    color: #4e54c8;
+    margin-bottom: 0.25rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--darkgray);
+  }
+}
+
+// --- Responsive Tweaks ---
+@media (max-width: 600px) {
+  .wiki-hero {
+    padding: 1.25rem 1rem;
+    h1 {
+      font-size: 1.6rem;
+    }
+  }
+
+  .portal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step-item {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}

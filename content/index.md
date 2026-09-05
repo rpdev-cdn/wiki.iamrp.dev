@@ -1,104 +1,84 @@
 ---
 title: "RPDev Master Wiki"
-description: "Central engineering knowledge base, architecture documentation, and project index across mobile, infrastructure, firmware, AI, and security."
+description: "The welcoming knowledge base, user manual, and technical registry for RPDev Launcher, RPDev Feed, and Hub Modules."
 ---
 
-# RPDev Master Engineering Wiki
+<div class="wiki-hero">
+  <h1>📖 RPDev Ecosystem Wiki</h1>
+  <p>Welcome! Whether you are setting up your Android phone for the first time or looking for deep technical specifications on our open-source AIDL protocols, you are in the right place.</p>
+</div>
 
-> The unified knowledge base and technical registry for all software, infrastructure, mobile, firmware, and artificial intelligence projects across the RPDev ecosystem.
+<div style="display: flex; gap: 1.5rem; justify-content: center; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
+  <div style="text-align: center; max-width: 300px;">
+    <img src="https://cdn.iamrp.dev/recordings/demo_feed_swipe.gif" alt="RPDev Feed Overlay Gesture" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); width: 100%;" />
+    <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem; font-weight: 500;">Fluid -1 Feed Overlay Gesture</p>
+  </div>
+  <div style="text-align: center; max-width: 300px;">
+    <img src="https://cdn.iamrp.dev/screenshots/launcher_home.png" alt="RPDev Launcher Desktop" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); width: 100%;" />
+    <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem; font-weight: 500;">RPDev Launcher Home Screen</p>
+  </div>
+</div>
 
-```
-  ██████╗ ██████╗ ██████╗ ███████╗██╗   ██╗    ██╗    ██╗██╗██╗  ██╗██╗
-  ██╔══██╗██╔══██╗██╔══██╗██╔════╝██║   ██║    ██║    ██║██║██║ ██╔╝██║
-  ██████╔╝██████╔╝██║  ██║█████╗  ██║   ██║    ██║ █╗ ██║██║█████╔╝ ██║
-  ██╔══██╗██╔═══╝ ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██║███╗██║██║██╔═██╗ ██║
-  ██║  ██║██║     ██████╔╝███████╗ ╚████╔╝     ╚███╔███╔╝██║██║  ██╗██║
-  ╚═╝  ╚═╝╚═╝     ╚═════╝ ╚══════╝  ╚═══╝       ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝
-```
+<div class="portal-grid">
+  <a class="portal-card" href="getting-started/">
+    <div class="card-icon">🚀</div>
+    <div class="card-title">Quick Start Guide</div>
+    <div class="card-desc">Step-by-step instructions to download, install, and set up RPDev Launcher and Feed on any modern Android device.</div>
+    <span class="card-tag">For Everyone →</span>
+  </a>
 
----
+  <a class="portal-card" href="launcher/">
+    <div class="card-icon">📱</div>
+    <div class="card-title">RPDev Launcher Guide</div>
+    <div class="card-desc">Master nested folders, custom drawer folder icons, desktop gestures, and explore every setting in plain English.</div>
+    <span class="card-tag">User Manual →</span>
+  </a>
 
-## 🏛️ Project Directory & Portals
+  <a class="portal-card" href="feed/">
+    <div class="card-icon">📰</div>
+    <div class="card-title">RPDev Feed Guide</div>
+    <div class="card-desc">Your private, sovereign -1 screen. Learn how to add RSS feeds, customize cards, reorder layouts, and read offline.</div>
+    <span class="card-tag">Zero Telemetry →</span>
+  </a>
 
-```
-                                  ┌────────────────────────────────┐
-                                  │      RPDev Master Wiki         │
-                                  │       (wiki.iamrp.dev)         │
-                                  └───────────────┬────────────────┘
-                                                  │
-         ┌───────────────────┬────────────────────┼───────────────────┬───────────────────┐
-         ▼                   ▼                    ▼                   ▼                   ▼
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
-│ Mobile Stack    │ │ Infrastructure  │ │ Firmware & IoT  │ │ AI & Agents     │ │ Security Trust  │
-│ - Launcher      │ │ - Edge (MT6000) │ │ - Thingino      │ │ - DocIngest     │ │ - FIDO2 + Age   │
-│ - Feed Overlay  │ │ - Storage (T430)│ │ - OpenWrt Builds│ │ - Qdrant Vector │ │ - Chezmoi       │
-│ - Feed Modules  │ │ - Compute Fleet │ │ - Kexecboot     │ │ - Agent Squad   │ │ - .envmaster    │
-└─────────────────┘ └─────────────────┘ └─────────────────┘ └─────────────────┘ └─────────────────┘
-```
+  <a class="portal-card" href="modules/">
+    <div class="card-icon">🧩</div>
+    <div class="card-title">Modules Hub (All 9 Modules)</div>
+    <div class="card-desc">Explore weather, battery health, calendar, GitHub activity, web scrapers, Home Assistant, Docker, and more.</div>
+    <span class="card-tag">9 Subsections →</span>
+  </a>
 
----
+  <a class="portal-card" href="getting-started/faq/">
+    <div class="card-icon">💡</div>
+    <div class="card-title">Help & Troubleshooting</div>
+    <div class="card-desc">Having trouble swiping to the feed? Need help generating an API token? Clear answers to common questions.</div>
+    <span class="card-tag">Troubleshooting →</span>
+  </a>
 
-## 📱 1. Mobile & Android Ecosystem
-
-High-performance, privacy-first Android software built on AOSP foundations with Android 16 parity.
-
-- **[RPDev Launcher](https://launcher.iamrp.dev)**: Next-generation Android home screen featuring recursive nested folders, custom drawer folder icons with JSON persistence, predictive back gestures, and Android 16 Pixel Launcher (`NexusLauncherRelease`) parity.
-  - *Repository*: [`RPDevs-Builds/RPDev-Launcher`](https://github.com/RPDevs-Builds/RPDev-Launcher)
-  - *Portal*: [launcher.iamrp.dev](https://launcher.iamrp.dev)
-- **[RPDev Feed](https://feed.launcher.iamrp.dev)**: Sovereign Google Discover alternative implementing the `ILauncherOverlay` AIDL bridge. Renders customizable Compose UI cards with zero tracking and local SQLite persistence.
-  - *Repository*: [`RPDevs-Builds/RPDev-Feed`](https://github.com/RPDevs-Builds/RPDev-Feed)
-  - *Portal*: [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev)
-- **[RPDev Feed Modules](https://repo.launcher.iamrp.dev)**: Swappable card plugins delivering weather radar, hardware battery telemetry, RSS feeds, GitHub activity, quick notes, and network speedometers.
-  - *Repository*: [`RPDevs-Builds/RPDev-Feed-Modules`](https://github.com/RPDevs-Builds/RPDev-Feed-Modules)
-  - *Portal & Catalog*: [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev)
-- **[RPDev Edge CDN](https://cdn.iamrp.dev)**: High-speed edge delivery network hosting JSON schemas (`card-v1.schema.json`, `module-manifest.schema.json`), catalog indexes, and release metadata.
-  - *Repository*: [`rpdev-cdn/cdn.iamrp.dev`](https://github.com/rpdev-cdn/cdn.iamrp.dev)
-  - *Portal*: [cdn.iamrp.dev](https://cdn.iamrp.dev)
-
----
-
-## 🖥️ 2. Infrastructure & Homelab Engineering
-
-A resilient, hybrid infrastructure spanning bare-metal workstations, storage servers, and edge gateways, continuously audited by `infra-audit-engine`.
-
-- **[Infrastructure Fleet & Nodes](infrastructure/nodes.md)**: Specifications and topology across `edge` (GL-MT6000 OpenWrt router), `t430` (NFS storage & automation host), and `llmadmin01` (compute workstation).
-- **[Tiered Storage Architecture](infrastructure/storage.md)**: Strict separation of high-IOPS local NVMe storage (databases, WALs, container layers) and bulk network storage (`/mnt/sharedroot`).
-- **[Cloudflare Argo Tunnels & DNS](networking/cloudflare-tunnels.md)**: Zero-trust ingress topology exposing internal services (`auth`, `mcp`, `nvr`, `uptime`) securely without port forwarding.
-- **Infrastructure Audit Engine**: Automated Python 3.12 daemon that inspects Docker containers, network bridges, OpenWrt states, and Cloudflare configurations to maintain the authoritative `CURRENT_ENV.yml`.
+  <a class="portal-card" href="developers/">
+    <div class="card-icon">🛠️</div>
+    <div class="card-title">Developer & Power User Hub</div>
+    <div class="card-desc">Build from source, write custom Hub plugins, inspect JSON schemas, and understand the AIDL overlay bridge.</div>
+    <span class="card-tag">Architecture & Code →</span>
+  </a>
+</div>
 
 ---
 
-## 📡 3. Embedded Systems & Firmware
+## 🌟 The RPDev Philosophy
 
-- **Thingino Firmware**: Open-source, lightweight Linux firmware for IP cameras and embedded vision systems.
-- **Custom OpenWrt Toolchains**: Customized package feeds for MediaTek MT7986A, including `luci-app-cloudflared`, custom WireGuard tunnels, and POSIX ACL overlays.
-- **Kexecboot Wireless Bootloader**: Rapid-boot kernel-based wireless bootloaders for headless diagnostic environments.
-
----
-
-## 🧠 4. Artificial Intelligence & Multi-Agent Systems
-
-- **DocIngest**: Documentation ingestion and knowledge graph processor for Quartz and Markdown digital gardens.
-- **Qdrant Security Agent**: Local vector search and semantic memory system powered by Qdrant and Ollama.
-- **Autonomous Agent Squads**: Multi-agent development pipelines for continuous integration, code auditing, and documentation synchronization.
+1. **Privacy Above All Else**: Zero telemetry, zero analytics tracking, and zero advertising SDKs. What happens on your phone stays on your phone.
+2. **Built for Real People**: We believe open-source tools should be delightful and effortless to use—not just for software developers, but for anyone who values control over their digital life.
+3. **Open & Extensible**: Every module is modular and swappable. If you want to connect your local Home Assistant instance or write a custom REST endpoint, the system adapts to you.
 
 ---
 
-## 🔐 5. Security, Secrets & Hardware Trust
+## 🧭 Live Web Portals
 
-- **[Hardware Security Keys & Age Encryption](security/fido2-age.md)**: Age encryption bound to physical FIDO2/U2F security tokens via `age-plugin-fido2prf` with user-presence verification.
-- **Master Environment Registry (`.envmaster`)**: Centralized single source of truth for workspace configuration, variables, and API tokens.
-- **Chezmoi System Orchestration**: Version-controlled dotfiles with in-memory secret decryption and encrypted diff verification.
-
----
-
-## 🌐 Ecosystem Quick Links
-
-| Service | Subdomain | Role |
+| Service | Address | What it does |
 |---|---|---|
-| **Master Wiki** | [wiki.iamrp.dev](https://wiki.iamrp.dev) | Central Engineering Wiki & Project Index |
-| **RPDev Launcher** | [launcher.iamrp.dev](https://launcher.iamrp.dev) | Android Launcher Portal & Releases |
-| **RPDev Feed** | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) | Feed Protocol & Developer Docs |
-| **Module Repository** | [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev) | Feed Module Catalog & Registry |
-| **Static CDN** | [cdn.iamrp.dev](https://cdn.iamrp.dev) | Distributed Edge Asset CDN |
-| **Digital Garden** | [iamrp.dev](https://iamrp.dev) | Personal Notes & Articles |
+| **RPDev Launcher** | [launcher.iamrp.dev](https://launcher.iamrp.dev) | Official home of the RPDev Launcher app |
+| **RPDev Feed** | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) | Feature showcase of the sovereign feed companion |
+| **Module Repository** | [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev) | Interactive catalog of all 9 available card modules |
+| **Edge CDN** | [cdn.iamrp.dev](https://cdn.iamrp.dev) | High-speed edge network serving icons, schemas, and catalogs |
+| **Source Code** | [github.com/RPDevs-Builds](https://github.com/RPDevs-Builds) | Open-source repositories under GPL v3.0 |
