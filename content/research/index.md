@@ -41,27 +41,27 @@ The capstone is organized into twelve comprehensive technical monographs:
 ```mermaid
 graph TD
     subgraph Foundation["🏛️ Foundations & Architecture"]
-        Arch["1. Architecture & Multi-Agent Swarm<br>([[research/Agents_and_Architecture|Agents & Architecture]])"]
-        Strat["2. Research Strategy & Hypotheses<br>([[research/Research_Strategy|Research Strategy]])"]
-        Lab["3. Lab Topology & Edge Specifications<br>([[research/Lab_Requirements|Lab Requirements]])"]
+        Arch["1. Architecture & Multi-Agent Swarm<br>([[research/agents-and-architecture|Agents & Architecture]])"]
+        Strat["2. Research Strategy & Hypotheses<br>([[research/index|Research Strategy]])"]
+        Lab["3. Lab Topology & Edge Specifications<br>([[research/lab-requirements|Lab Requirements]])"]
     end
 
     subgraph Vector_Cognition["🧠 Vector Memory & Empirical Proof of Concept"]
-        Vector["4. Vector Memory Datastore (dev_memory_main)<br>([[research/Vector_Knowledge_and_Telemetry|Vector Memory Datastore]])"]
-        RF["5. Empirical RF Telemetry & Anomaly Math<br>([[research/Empirical_Telemetry_and_RF_Analysis|Empirical RF Telemetry]])"]
-        Tools["6. Operational Telemetry & Tooling<br>([[research/Tools_and_Telemetry|Tools & Telemetry]])"]
+        Vector["4. Vector Memory Datastore (dev_memory_main)<br>([[research/vector-knowledge-and-telemetry|Vector Memory Datastore]])"]
+        RF["5. Empirical RF Telemetry & Anomaly Math<br>([[research/empirical-telemetry-and-rf-analysis|Empirical RF Telemetry]])"]
+        Tools["6. Operational Telemetry & Tooling<br>([[research/tools-and-telemetry|Tools & Telemetry]])"]
     end
 
     subgraph Deep_Research["🔬 Research Tracks, Threat Matrix & Skills"]
-        Tracks["7. 26 Research Tracks Taxonomy<br>([[research/Research_Tracks_Taxonomy|26 Research Tracks]])"]
-        Matrix["8. Threat Intelligence & Attack Surface<br>([[research/Sources_and_Matrix|Sources & Attack Matrix]])"]
-        Skills["9. Methodology Skill Trees & Gaps<br>([[research/Skills_and_Gaps|Skills & Gaps]])"]
+        Tracks["7. 26 Research Tracks Taxonomy<br>([[research/research-tracks-taxonomy|26 Research Tracks]])"]
+        Matrix["8. Threat Intelligence & Attack Surface<br>([[research/sources-and-matrix|Sources & Attack Matrix]])"]
+        Skills["9. Methodology Skill Trees & Gaps<br>([[research/skills-and-gaps|Skills & Gaps]])"]
     end
 
     subgraph Operations_Governance["🛡️ Operational Defense & Compliance"]
-        Playbooks["10. Lab-Validated Defense Playbooks<br>([[research/Lab_Validated_Playbooks|Lab Playbooks & SOAR]])"]
-        DFIR["11. DFIR, Memory Forensics & eBPF<br>([[research/DFIR_and_Playbooks|DFIR & Forensics]])"]
-        Gov["12. Regulatory Governance & Zero Trust<br>([[research/Compliance_and_Governance|Compliance & Governance]])"]
+        Playbooks["10. Lab-Validated Defense Playbooks<br>([[research/lab-validated-playbooks|Lab Playbooks & SOAR]])"]
+        DFIR["11. DFIR, Memory Forensics & eBPF<br>([[research/dfir-and-playbooks|DFIR & Forensics]])"]
+        Gov["12. Regulatory Governance & Zero Trust<br>([[research/compliance-and-governance|Compliance & Governance]])"]
     end
 
     Foundation --> Vector_Cognition
@@ -73,45 +73,45 @@ graph TD
 
 ## Master Thesis Monographs
 
-### 1. [[research/Agents_and_Architecture|Multi-Agent Swarm Topology & Secure Execution Boundaries]]
+### 1. [[research/agents-and-architecture|Multi-Agent Swarm Topology & Secure Execution Boundaries]]
 Defines the autonomous agent hierarchy, quorum gating consensus, MCP execution boundaries, and human-in-the-loop safety protocols.
 
-### 2. [[research/Vector_Knowledge_and_Telemetry|Vector Knowledge Base & Memory Datastore (dev_memory_main)]]
+### 2. [[research/vector-knowledge-and-telemetry|Vector Knowledge Base & Memory Datastore (dev_memory_main)]]
 Mathematical foundation of the 768-dimensional Cosine embedding space (`nomic-ai/nomic-embed-text-v1.5`), HNSW graph indexing ($M=16, ef=100$), and the 11,814 chunked vectors comprising the agent's cognitive memory.
 
-### 3. [[research/Empirical_Telemetry_and_RF_Analysis|Empirical Telemetry & RF Anomaly Modeling]]
+### 3. [[research/empirical-telemetry-and-rf-analysis|Empirical Telemetry & RF Anomaly Modeling]]
 Physical RF signal propagation math (Log-distance path loss), continuous multi-variate dwell-time anomaly scoring, and empirical findings across edge hardware sensors.
 
-### 4. [[research/Research_Tracks_Taxonomy|26 Prioritized Research Tracks Taxonomy]]
+### 4. [[research/research-tracks-taxonomy|26 Prioritized Research Tracks Taxonomy]]
 Comprehensive academic synthesis of all 26 research tracks across AI security, post-quantum cryptography, offensive eBPF rootkits, 5G SA network slicing, passkey implementations, and supply chain integrity.
 
-### 5. [[research/Lab_Validated_Playbooks|Lab-Validated Defense Playbooks & SOAR Engineering]]
+### 5. [[research/lab-validated-playbooks|Lab-Validated Defense Playbooks & SOAR Engineering]]
 Production-grade SOAR playbooks featuring Sigma detection rules, Suricata network signatures, and automated OpenWrt/Linux quarantine scripts.
 
-### 6. [[research/DFIR_and_Playbooks|Digital Forensics, Incident Response & Runtime eBPF Telemetry]]
+### 6. [[research/dfir-and-playbooks|Digital Forensics, Incident Response & Runtime eBPF Telemetry]]
 Forensic memory acquisition pipelines, Volatility 3 kernel symbol analysis, and real-time eBPF event stream monitoring.
 
-### 7. [[research/Compliance_and_Governance|Regulatory Compliance, Zero Trust & AI Safety Governance]]
+### 7. [[research/compliance-and-governance|Regulatory Compliance, Zero Trust & AI Safety Governance]]
 Formal control crosswalk across NIST SP 800-53 Rev 5, NIST SP 800-207 (Zero Trust Architecture), ISO/IEC 27001:2022, SOC 2 Type II, and the EU Artificial Intelligence Act.
 
-### 8. [[research/Lab_Requirements|Physical & Virtual Lab Infrastructure Specifications]]
+### 8. [[research/lab-requirements|Physical & Virtual Lab Infrastructure Specifications]]
 Hardware ledgers, network interface topology, RF sensor arrays, and compute specifications across `edge` (OpenWrt), `llmadmin01` (NVIDIA GPU AI host), and `t430` (bare-metal cluster).
 
-### 9. [[research/Sources_and_Matrix|Threat Intelligence Ingestion & Attack Surface Matrix]]
+### 9. [[research/sources-and-matrix|Threat Intelligence Ingestion & Attack Surface Matrix]]
 Curated OSINT feeds, Shodan vulnerability mapping, CVE indexing, and MITRE ATT&CK enterprise tactic mappings.
 
-### 10. [[research/Skills_and_Gaps|Security Methodology Skill Trees & Research Horizons]]
+### 10. [[research/skills-and-gaps|Security Methodology Skill Trees & Research Horizons]]
 Granular breakdown of the 2,574 security skill definitions, execution frameworks, and open theoretical horizons.
 
-### 11. [[research/Research_Strategy|Strategic Direction & Scientific Methodology]]
+### 11. [[research/index|Strategic Direction & Scientific Methodology]]
 The academic experimental protocol, hypothesis validation cycles, and benchmarking criteria for autonomous defense.
 
-### 12. [[research/Tools_and_Telemetry|Operational Instrumentation & Approved Toolsets]]
+### 12. [[research/tools-and-telemetry|Operational Instrumentation & Approved Toolsets]]
 Command references, sandboxed execution binaries, and telemetry pipeline configurations.
 
 ---
 
 _Related Applied Vaults & Workspaces:_
-- **[[Codex_Arcana|Codex Arcana Growth Vault]]**
-- **[[Local_LLM_Architecture|Zero-Trust Local LLM Ingress Architecture]]**
-- **[[Current_Environment|Authoritative Host Infrastructure State]]**
+- **[[codex-arcana|Codex Arcana Growth Vault]]**
+- **[[local-llm-architecture|Zero-Trust Local LLM Ingress Architecture]]**
+- **[[projects/Infrastructure/nodes|Authoritative Host Infrastructure State]]**
