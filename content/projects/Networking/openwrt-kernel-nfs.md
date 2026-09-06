@@ -1,9 +1,13 @@
 ---
-title: "OpenWrt Kernel NFS Server Manual"
+title: "OpenWrt Kernel NFS Server Manual (luci-app-nfs)"
+description: "Authoritative technical manual for luci-app-nfs: bridging OpenWrt UCI configuration with Linux kernel nfsd for wire-speed network file sharing."
 tags:
   - wiki
-  - project-manual
-  - documentation
+  - networking
+  - openwrt
+  - nfs
+  - storage
+  - luci
 aliases:
   - /projects/networking/openwrt-kernel-nfs
 ---
@@ -11,11 +15,20 @@ aliases:
 > [!note] Project Documentation Wiki
 > *This document is part of the **[[projects/index|RPDev Projects Knowledge Base]]**. For the high-level portfolio overview, visit [iamrp.dev](https://iamrp.dev).*
 
+> [!info] Project Maturity: **95% — Production Package (Tier 5)**
+> - **Lifecycle Status**: Active Production Gateway Package
+> - **Active Components**: Full UCI schema, LuCI JS/Lua controllers, dual APKv3/OPKG packaging, 282 MB/s MT6000 wire speed benchmark
+> - **Pending Enhancements**: Upstream OpenWrt community package feed submission
+
 # OpenWrt Kernel NFS Server Manager: High-Performance Embedded Storage
 ## **Bridging OpenWrt UCI Configuration with Native Linux Kernel nfsd for Wire-Speed Network Storage**
 
 > [!abstract] Architectural Overview
 > **`luci-app-nfs`** is a native OpenWrt LuCI management application and configuration bridge designed to orchestrate the Linux kernel NFS daemon (`nfsd`) on embedded routers and edge gateways. It translates declarative Unified Configuration Interface (UCI) records (`/etc/config/nfs`) into production `/etc/exports` and `/etc/nfs.conf` files, unlocking **wire-speed, low-CPU network file sharing** across local storage arrays.
+
+- **Repository**: [`https://github.com/RPDevs-Builds/luci-app-nfs`](https://github.com/RPDevs-Builds/luci-app-nfs)
+- **Target Kernel**: Linux Kernel `kmod-fs-nfsd` (NFSv3 and NFSv4.1/4.2)
+- **Packaging**: Dual packaging supporting modern APK v3 (`.apk`) and legacy OPKG (`.ipk`).
 
 ```mermaid
 flowchart TD
@@ -53,7 +66,6 @@ flowchart TD
 ## 1. The Challenge of Embedded Network Storage
 
 Running Network Attached Storage (NAS) services on embedded routers (like OpenWrt gateways) frequently introduces severe bottlenecks:
-
 1. **User-Space Overhead**: Legacy user-space file servers (such as older Samba daemons or user-space NFS servers) incur heavy context-switching penalties between user space and kernel space, capping transfer speeds at 30–40 MB/s and maxing out router CPUs.
 2. **Kernel Storage Disconnect**: While the native Linux kernel module `nfsd` provides maximum I/O throughput with minimal CPU overhead, OpenWrt lacked a dedicated LuCI web interface and declarative UCI model to manage kernel exports cleanly.
 3. **Complex Protocol Tuning**: Configuring NFSv4 domain names, thread pools, custom transport ports, and POSIX permissions required manual text file editing vulnerable to syntax errors.
@@ -81,29 +93,21 @@ config share
 	option options 'rw,sync,no_subtree_check,no_root_squash'
 ```
 
-### Dynamic File Generation:
+### Dynamic File Generation
 When settings are saved via the LuCI Web UI or `uci commit`, the application dynamically renders:
 * **`/etc/exports`**: Defines path-level client authorization, read/write permissions, and squash rules.
 * **`/etc/nfs.conf`**: Configures daemon worker pools, active protocol versions (NFSv3/NFSv4), and custom TCP/UDP transport bindings.
 
 ---
 
-## 3. Key Operational Capabilities
-
-* **Multi-Version Protocol Support**: Toggle between lightweight NFSv3 (for legacy embedded clients) and stateful, secured NFSv4 with domain-level mapping.
-* **Kernel Observability & Diagnostics**: Real-time export status viewer and automated fallback to kernel ring buffer logs (`dmesg`) to diagnose authentication failures and client disconnects.
-* **Thread Pool Tuning**: Dynamically adjusts `nfsd` worker threads based on available CPU cores (e.g., MediaTek Filogic quad-core CPUs) to maximize concurrent client I/O.
-
----
-
-## 4. Modern Packaging Pipeline (APK v3 & Legacy IPK)
+## 3. Modern Packaging Pipeline (APK v3 & Legacy IPK)
 
 The project incorporates an automated GitHub Actions CI workflow capable of producing packages for both cutting-edge and legacy OpenWrt environments:
 
-| Package Target | Format | Supported OpenWrt Versions |
-| :--- | :---: | :--- |
-| **OpenWrt Modern** | `.apk` (APK v3) | OpenWrt v26+ (Alpine-based package management) |
-| **OpenWrt Legacy** | `.ipk` (OPKG) | OpenWrt 21.02, 22.03, 23.05 |
+| Package Target | Format | Supported OpenWrt Versions | Build Tool |
+| :--- | :---: | :--- | :--- |
+| **OpenWrt Modern** | `.apk` (APK v3) | OpenWrt v26+ (Alpine-based package management) | Static `apk.static mkpkg` |
+| **OpenWrt Legacy** | `.ipk` (OPKG) | OpenWrt 21.02, 22.03, 23.05 | `tar` control/data archives |
 
 ```bash
 # Modern installation via APK on OpenWrt 26+
@@ -115,7 +119,7 @@ opkg update && opkg install luci-app-nfs_1.2.0_all.ipk
 
 ---
 
-## 5. Performance Benchmarks
+## 4. Performance Benchmarks
 
 Benchmarking storage throughput across a 2.5 Gbps local network backbone (MediaTek MT7986 ARM64 OpenWrt Router connected to NVMe storage):
 
@@ -129,11 +133,8 @@ By moving execution directly into the Linux kernel and managing configuration de
 
 ---
 
-## 🔗 Related Architecture & Knowledge Graph
-
-* **Production Systems:** Validated in [[Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Layer2_Containerization|Layer2 Containerization]].
-* **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
-* **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Lab_Requirements|Lab Requirements]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
-* **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].
+## 🧭 Navigation & Related Documentation
+- Review unattended image compilation in **[[projects/Networking/openwrt-asu-builder|OpenWrt ASU Build Server]]**
+- Understand cluster disk tiers in **[[projects/Infrastructure/storage|Tiered Storage Architecture]]**
+- Explore hardware nodes in **[[projects/Infrastructure/nodes|Hardware Nodes & Topology]]**
+- Return to **[[projects/index|Projects Documentation Hub]]**

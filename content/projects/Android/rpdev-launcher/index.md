@@ -3,6 +3,12 @@ title: "RPDev Launcher Documentation"
 description: "Architecture, engineering guide, and build system for the sovereign Android AOSP launcher."
 ---
 
+
+> [!info] Project Maturity: **92% — Production Mobile App (Tier 5)**
+> - **Lifecycle Status**: Active Daily Driver Application
+> - **Active Components**: AOSP Android 16 SDK 36, Kotlin DataStore state flows, recursive folder cycle guards, DeX desktop integration, custom icon shaders
+> - **Pending Enhancements**: F-Droid inclusion metadata submission, foldable split-screen display tuning
+
 # RPDev Launcher Documentation
 
 > Sovereign, performant Android home screen engineered on top of Android 14/16 AOSP Launcher3 foundations with complete architectural parity to Google's Pixel Launcher (`NexusLauncherRelease.apk`).

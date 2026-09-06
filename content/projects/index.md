@@ -10,41 +10,44 @@ aliases:
 
 > **Detailed operational documentation, deployment playbooks, and engineering manuals for all software and infrastructure projects built across the RPDevs ecosystem.**
 
+> [!important] **Ecosystem Maturity & Lifecycle Registry**
+> All 26 active projects have been empirically evaluated and assigned completion ratings from **10% to 99%**. Explore the full comparative dashboard in the **[[projects/maturity-matrix|RPDev Ecosystem Project Maturity & Lifecycle Matrix]]**.
+
 ```mermaid
 graph TD
     subgraph Mobile["📱 Mobile Ecosystem"]
-        Launcher["RPDev Launcher<br><i>AOSP Android 16</i>"]
-        Feed["RPDev Feed<br><i>AIDL Minus-One</i>"]
-        Modules["Hub Card Modules<br><i>9 Pluggable Cards</i>"]
-        DeX["Samsung DeX Bridge<br><i>Linux Desktop</i>"]
+        Launcher["RPDev Launcher (92%)<br><i>AOSP Android 16</i>"]
+        Feed["RPDev Feed (88%)<br><i>AIDL Minus-One</i>"]
+        Modules["Hub Card Modules (80%)<br><i>Pluggable Cards</i>"]
+        GPSD["gpsdRelay (80%)<br><i>NMEA NTP Clock</i>"]
+        RVX["RVX-Builds (85%)<br><i>Tasker + GHA Patching</i>"]
     end
 
     subgraph Infra["📊 Infrastructure & Fleet"]
-        Audit["Infra Audit Engine<br><i>CURRENT_ENV.yml</i>"]
+        Audit["Infra Audit Engine (95%)<br><i>CURRENT_ENV.yml</i>"]
         Alloy["Fleet Observability<br><i>Grafana Alloy & eBPF</i>"]
         BuildFleet["CI/CD Runner Fleet<br><i>Ephemeral Actions</i>"]
-        OCI["Builder Manager<br><i>Multi-Arch OCI</i>"]
-        Coolify["Coolify PaaS<br><i>Bare-Metal Deploy</i>"]
+        OCI["Builder Manager (70%)<br><i>Multi-Arch OCI & Cache</i>"]
+        NFS["Kernel NFS (95%)<br><i>282 MB/s Wire Speed</i>"]
     end
 
     subgraph NetSec["🌐 Networking & Security"]
-        OpenWrt["OpenWrt Fleet<br><i>Kernel NFS & ASU</i>"]
-        SDR["SDR Aviation<br><i>1090MHz ADS-B</i>"]
-        FIDO2["Hardware Security<br><i>FIDO2 + Age</i>"]
-        Kexec["kexecboot.xyz<br><i>Wireless Pivot</i>"]
+        ASU["OpenWrt ASU (85%)<br><i>FastAPI ImageBuilder</i>"]
+        Blackhole["OpenWrt Blackhole (65%)<br><i>Sinkhole Monorepo</i>"]
+        RF["RF Board TV (25%)<br><i>Hardware Combiner/LNA</i>"]
+        NextDNS["NextDNS Addon (92%)<br><i>Firefox MV3 SSE</i>"]
+        Kexec["kexecboot.xyz (45%)<br><i>Wi-Fi Linux Pivot</i>"]
     end
 
-    subgraph ResearchHub["🛡️ Security & AI Research"]
-        SARA["Multi-Agent Swarm<br><i>12 Capstone Monographs</i>"]
-        VectorDB["Vector Knowledge<br><i>768-dim Qdrant</i>"]
-        ControlPlane["LLM Control Plane<br><i>Gemini CLI SSE</i>"]
+    subgraph Streaming["🎬 Media & Streaming"]
+        KodiFleet["Kodi Fleet (70-85%)<br><i>Addons & Depends Fleet</i>"]
+        VLC["VLC Live555 (75%)<br><i>Dual-Track CI Matrix</i>"]
     end
 
     Launcher --> Feed
     Feed --> Modules
     Audit --> Alloy
-    OpenWrt --> Audit
-    SARA --> VectorDB
+    ASU --> NFS
 ```
 
 ---
@@ -52,40 +55,44 @@ graph TD
 ## 🧭 Projects Knowledge Catalog
 
 ### 📱 Android & Mobile Systems
-- **[[projects/Android/rpdev-launcher/index|RPDev Launcher User & Architecture Manual]]** — *AOSP Android 16 home screen, DataStore state flows, recursive folder cycle guards.*
-- **[[projects/Android/rpdev-feed/index|RPDev Feed Companion Manual]]** — *Sovereign -1 screen, AIDL overlay server, on-device RSS parsing, Room database.*
-- **[[projects/Android/rpdev-feed-modules/index|Hub Card Modules Ecosystem]]** — *Technical guides and JSON schemas for all 9 card plugins.*
+- **[[projects/Android/rpdev-launcher/index|RPDev Launcher User & Architecture Manual]]** `92% [Production]` — *AOSP Android 16 home screen, DataStore state flows, recursive folder cycle guards.*
+- **[[projects/Android/rpdev-feed/index|RPDev Feed Companion Manual]]** `88% [Production]` — *Sovereign -1 screen, AIDL overlay server, on-device RSS parsing, Room database.*
+- **[[projects/Android/rpdev-feed-modules/index|Hub Card Modules Ecosystem]]** `80% [Operational]` — *Technical guides and JSON schemas for all pluggable card modules.*
+- **[[projects/Android/gpsd-relay|gpsdRelay: Stratum-1 NMEA GPS Telemetry]]** `80% [Operational]` — *Transforms Android GNSS hardware into network-accessible reference clocks.*
+- **[[projects/Android/rvx-builds|RVX-Builds Mobile-Cloud Pipeline]]** `85% [Operational]` — *Zero-touch Tasker, Join API, and GitHub Actions automated binary compilation and silent ADB Wi-Fi installs.*
 - **[[projects/mobile-stack|Mobile Stack Unified Architecture]]** — *End-to-end specification connecting launcher, feed overlay, and edge CDN.*
 
 ### 🛡️ Security & AI Research Hub
-- **[[research/index|Master Thesis & Capstone Research Overview]]** — *Autonomous multi-agent swarms, vector retrieval, and empirical RF anomaly modeling.*
-- **[[research/agents-and-architecture|Multi-Agent Swarm Topology & Consensus]]** — *Agent hierarchy, quorum gating, and MCP execution boundaries.*
-- **[[research/vector-knowledge-and-telemetry|Vector Knowledge Base & Qdrant HNSW]]** — *Mathematical foundation of 768-dim Cosine vector space and chunking.*
-- **[[research/dfir-and-playbooks|DFIR Volatility 3 & eBPF Telemetry]]** — *Live memory analysis, kernel symbols, and runtime eBPF auditing.*
-- **[[research/codex-arcana|Codex Arcana Growth Vault]]** — *Engineering root causes, debugging breakthroughs, and architectural lessons.*
+- **[[projects/Security/dns-forge-firefox-addon|DNS Forge NextDNS Firefox Addon]]** `92% [Production Ready]` — *AMO-compliant MV3 extension with single delegated event listener and SSE log parser.*
+- **[[projects/Security/mcp-gateway|MCP Security Gateway]]** `50% [Architectural Prototype]` — *Dockerized security proxy, token authentication, and tool execution boundaries for AI agents.*
+- **[[projects/Security/cloudflare-mcp|Cloudflare MCP Integrations]]** `40-45% [Alpha]` — *Authenticated and anonymous tool interfaces for Cloudflare infrastructure.*
+- **[[projects/Security/fido2-age|FIDO2 + Age Hardware Secrets]]** `95% [Production]` — *Physical security key derivation, PAM hardware authentication, and chezmoi integration.*
+- **[[projects/Security/wazuh-crowdsec-siem|Wazuh + CrowdSec SIEM]]** — *Collaborative threat intelligence and host integrity monitoring.*
+- **[[projects/Security/perimeter-deception-tarpits|Perimeter Deception & Tarpits]]** — *Endlessh-Go and Cowrie honeypots trapping malicious scanners.*
 
 ### 📊 Infrastructure & Observability
-- **[[projects/Infrastructure/infra-audit-engine/index|Infra Audit Engine Manual]]** — *Multi-node hardware detection, SSH key verification, and `CURRENT_ENV.yml` compilation.*
-- **[[projects/Infrastructure/nodes|Hardware Nodes & Topology]]** — *Hardware specifications and role assignments for `edge`, `llmadmin01`, and `t430`.*
+- **[[projects/Infrastructure/infra-audit-engine/index|Infra Audit Engine Manual]]** `95% [Production]` — *Multi-node hardware detection, SSH key verification, and CURRENT_ENV.yml compilation.*
+- **[[projects/Infrastructure/builder-manager|Builder Manager & OCI Cache Fleet]]** `70% [Active Beta]` — *Tier 2-2.5 multi-architecture build orchestration and runner cache management.*
+- **[[projects/Infrastructure/nodes|Hardware Nodes & Topology]]** — *Hardware specifications and role assignments for edge, llmadmin01, and t430.*
 - **[[projects/Infrastructure/storage|Tiered Storage Architecture]]** — *ZFS, NVMe local SSD, and NFS SharedRoot tiering rules.*
 - **[[projects/Infrastructure/coolify-paas|Coolify PaaS Integration]]** — *Production self-hosted application platform on bare metal.*
 - **[[projects/Infrastructure/alloy-observability|Grafana Alloy Observability]]** — *eBPF container metrics and distributed logging.*
 
 ### 🌐 Networking & IoT
+- **[[projects/Networking/openwrt-kernel-nfs|OpenWrt Kernel NFS Server (luci-app-nfs)]]** `95% [Production]` — *Full UCI LuCI integration, dual APKv3/OPKG packaging, and 282 MB/s wire speed.*
+- **[[projects/Networking/openwrt-asu-builder|OpenWrt Attended Sysupgrade (ASU) Server]]** `85% [Operational]` — *Self-hosted FastAPI server with containerized ImageBuilders compiling firmware on demand.*
+- **[[projects/Networking/openwrt-blackhole|OpenWrt Blackhole DNS Sinkhole Monorepo]]** `65% [Active Beta]` — *Sovereign network ad-blocking, high-performance Go sinkhole daemon, and LuCI frontend.*
 - **[[projects/Networking/openwrt-fleet/index|OpenWrt Fleet Operations]]** — *Kernel NFS configuration, unattended sysupgrades, and UCI state normalization.*
 - **[[projects/Networking/cloudflare-tunnels|Cloudflare Edge Tunnels]]** — *Zero-trust ingress routing and SSL termination for public endpoints.*
+- **[[projects/Networking/rf-board-tv|RF Board TV Combiner & LNA]]** `25% [Hardware Prototype]` — *Custom UHF/VHF Wilkinson power divider, 5G notch filter, and QPL9547 LNA hardware design.*
 - **[[projects/Networking/adsb-aviation-sdr|ADS-B Aviation SDR Telemetry]]** — *Demodulating 1090MHz flight telemetry with RTL-SDR.*
 
-### 🔒 Security & Cryptography
-- **[[projects/Security/fido2-age|FIDO2 + Age Hardware Secrets]]** — *Physical security key derivation, PAM hardware authentication, and chezmoi integration.*
-- **[[projects/Security/wazuh-crowdsec-siem|Wazuh + CrowdSec SIEM]]** — *Collaborative threat intelligence and host integrity monitoring.*
-- **[[projects/Security/perimeter-deception-tarpits|Perimeter Deception & Tarpits]]** — *Endlessh-Go and Cowrie honeypots trapping malicious scanners.*
-
-### 🧪 Theory, Bootloaders & Tools
-- **[[projects/TheoryandEarlyDev/kexecboot/index|kexecboot.xyz Wireless Bootloader]]** — *Pre-OS WPA2/3 Wi-Fi authentication and direct memory kernel kexec pivot.*
-- **[[projects/Tools/docingest/index|DocIngest Crawler Suite Overview]]** — *High-throughput documentation crawler, markdown conversion, and MCP vector retrieval.*
-- **[[projects/Tools/docingest/add|DocIngest Ingestion Console (Add)]]** — *Live interactive interface to submit and crawl documentation sites.*
-- **[[projects/Tools/docingest/view|DocIngest Corpus Explorer (View)]]** — *Live interactive browser for indexed developer documentation.*
+### 🎬 Streaming, Media & Tools
+- **[[projects/Tools/kodi-ecosystem|Kodi Addon Monorepo & Multi-Platform Build Fleet]]** `85% [Production]` — *Automated crypto constant synchronization, Megacloud & FlareSolverr packaging, and depends build fleet.*
+- **[[projects/Tools/vlc-live-555|VLC & Live555 Multi-Arch Build Engine]]** `75% [Operational]` — *Automated cross-compilation of Live555 streaming media and VLC Media Player with VA-API acceleration.*
+- **[[projects/Tools/apk-build-patch|APK Build-Patch Suite]]** `70% [Active Beta]` — *Headless smali disassembly, bytecode patching, and keystore signing toolchain.*
+- **[[projects/TheoryandEarlyDev/kexecboot/index|kexecboot.xyz Wireless Bootloader]]** `45% [Experimental Core]` — *Pre-OS WPA2/3 Wi-Fi authentication and direct memory kernel kexec pivot.*
+- **[[projects/Tools/docingest/index|DocIngest Crawler Suite Overview]]** `55% [Active Beta]` — *High-throughput documentation crawler, markdown conversion, and MCP vector retrieval.*
 
 ### 📋 Enterprise Governance & Policies
 - **[[projects/Governance/index|Enterprise Policy Standards & Charters]]** — *18 modernized IT and cybersecurity policies aligned to NIST CSF 2.0 and SOC 2.*
@@ -93,7 +100,6 @@ graph TD
 ---
 
 ## 🔗 Quick Links
-- Return to **[[index|Master Wiki Home]]**
-- Visit **[[getting-started/index|Quick Start Guide]]**
-- Explore all 9 cards in **[[modules/index|Modules Hub]]**
-- Review executive portfolio at **[iamrp.dev](https://iamrp.dev)**
+- **[[projects/maturity-matrix|RPDev Ecosystem Project Maturity & Lifecycle Matrix]]**
+- **[[index|Master Wiki Home]]**
+- **[iamrp.dev](https://iamrp.dev)**

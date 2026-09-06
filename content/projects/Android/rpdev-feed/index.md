@@ -3,6 +3,12 @@ title: "RPDev Feed Documentation"
 description: "Architecture, overlay service protocols, and Compose UI engine for the RPDev Feed provider."
 ---
 
+
+> [!info] Project Maturity: **88% — Production Companion Service (Tier 4)**
+> - **Lifecycle Status**: Active Production Companion
+> - **Active Components**: AIDL `ILauncherOverlay` server, on-device RSS parsing engine, Room SQLite persistence, zero Play Services dependency
+> - **Pending Enhancements**: Gesture physics smoothing on swipe-to-dismiss, tablet horizontal carousel layout
+
 # RPDev Feed Documentation
 
 > An extensible, open-source Google Discover alternative built on Jetpack Compose and the Android Launcher Overlay AIDL interface.

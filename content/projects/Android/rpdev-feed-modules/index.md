@@ -3,6 +3,12 @@ title: "RPDev Feed Modules Documentation"
 description: "Companion add-ons and card providers for RPDev Feed with open API specifications."
 ---
 
+
+> [!info] Project Maturity: **80% — Functional Ecosystem (Tier 4)**
+> - **Lifecycle Status**: Active Modular Architecture
+> - **Active Components**: Pluggable card catalog (sensors, weather, telemetry), JSON schema contract validation, Gradle multi-module architecture
+> - **Pending Enhancements**: Dynamic remote module loading without APK re-bundling
+
 # RPDev Feed Modules Documentation
 
 > The companion module monorepo hosting pluggable cards, telemetry readers, and widgets for RPDev Feed.
