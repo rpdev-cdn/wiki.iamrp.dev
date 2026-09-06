@@ -55,6 +55,13 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <span class="card-tag">18 Monographs →</span>
   </a>
 
+  <a class="portal-card" href="cdn/">
+    <div class="card-icon">🌐</div>
+    <div class="card-title">Edge CDN Network</div>
+    <div class="card-desc">Architecture, release endpoints, SHA-256 verification, and Cloudflare edge caching for cdn.iamrp.dev.</div>
+    <span class="card-tag">Edge Delivery →</span>
+  </a>
+
   <a class="portal-card" href="projects/">
     <div class="card-icon">🏗️</div>
     <div class="card-title">Projects Documentation Hub</div>
