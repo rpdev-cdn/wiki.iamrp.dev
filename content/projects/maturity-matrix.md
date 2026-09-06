@@ -15,6 +15,9 @@ aliases:
 > [!note] Authoritative Project Lifecycle Registry
 > *This document establishes the empirical maturity percentages and lifecycle status for all active repositories in the **`RPDevs-Builds`** organization. For high-level architecture narratives, consult the **[[projects/index|Projects Documentation Hub]]**.*
 
+> [!tip] **Live GitHub Project Board**
+> Track real-time sprint progress, backlog status, and milestone delivery on the official GitHub Organization Project Board: **[RPDev Ecosystem Fleet & Roadmap Tracker (Projects v2)](https://github.com/orgs/RPDevs-Builds/projects/1)**.
+
 # 📊 RPDev Ecosystem Project Maturity & Lifecycle Matrix
 
 Every engineering initiative within the RPDevs ecosystem undergoes rigorous lifecycle evaluation. Projects are not classified merely as "done" or "abandoned"; rather, each repository is scored on an **evidence-based completion scale from 10% to 99%** based on architectural completeness, production deployment, CI/CD pipeline health, and test coverage.

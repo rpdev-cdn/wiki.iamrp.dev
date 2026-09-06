@@ -11,7 +11,7 @@ aliases:
 > **Detailed operational documentation, deployment playbooks, and engineering manuals for all software and infrastructure projects built across the RPDevs ecosystem.**
 
 > [!important] **Ecosystem Maturity & Lifecycle Registry**
-> All 26 active projects have been empirically evaluated and assigned completion ratings from **10% to 99%**. Explore the full comparative dashboard in the **[[projects/maturity-matrix|RPDev Ecosystem Project Maturity & Lifecycle Matrix]]**.
+> All 26 active projects have been empirically evaluated and assigned completion ratings from **10% to 99%**. Explore the full comparative dashboard in the **[[projects/maturity-matrix|RPDev Ecosystem Project Maturity & Lifecycle Matrix]]** or track live milestones on the **[GitHub Projects v2 Board](https://github.com/orgs/RPDevs-Builds/projects/1)**.
 
 ```mermaid
 graph TD
