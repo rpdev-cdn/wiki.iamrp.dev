@@ -173,7 +173,7 @@ plugins:
         GitHub: https://github.com/RPDevs-Builds
         Launcher: https://launcher.iamrp.dev
         Feed: https://feed.launcher.iamrp.dev
-        Repository: https://repo.launcher.iamrp.dev
+        Repository: https://repo.iamrp.dev
         CDN: https://cdn.iamrp.dev
     layout:
       position: footer

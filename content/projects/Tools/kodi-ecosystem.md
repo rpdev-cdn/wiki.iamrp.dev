@@ -28,7 +28,7 @@ aliases:
 
 - **Addon Monorepo**: [`https://github.com/RPDevs-Builds/kodi-addons`](https://github.com/RPDevs-Builds/kodi-addons)
 - **Compilation Engine**: [`https://github.com/RPDevs-Builds/kodi-build`](https://github.com/RPDevs-Builds/kodi-build)
-- **Addon Repository URL**: `https://rpdevs-builds.github.io/`
+- **Addon Repository URL**: [`https://kodi.repo.iamrp.dev/`](https://kodi.repo.iamrp.dev/) (Master Hub: [`https://repo.iamrp.dev`](https://repo.iamrp.dev))
 
 ```mermaid
 graph TD
@@ -50,7 +50,7 @@ graph TD
     end
 
     subgraph Distribution["🌐 Distribution Layer"]
-        PagesDeploy["GitHub Pages<br><i>rpdevs-builds.github.io</i>"]
+        PagesDeploy["Kodi Repository<br><i>kodi.repo.iamrp.dev</i>"]
         Releases["GitHub Releases<br><i>Tag-Based ZIP Assets</i>"]
         Clients["📱 Kodi Clients (Android TV, Shield, DeX)"]
     end

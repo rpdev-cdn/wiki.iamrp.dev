@@ -100,7 +100,23 @@ When settings are saved via the LuCI Web UI or `uci commit`, the application dyn
 
 ---
 
-## 3. Modern Packaging Pipeline (APK v3 & Legacy IPK)
+## 3. Official Package Feed (`openwrt.repo.iamrp.dev`)
+
+`luci-app-nfs` and related OpenWrt packages are distributed via the sovereign package feed at **[`https://openwrt.repo.iamrp.dev/`](https://openwrt.repo.iamrp.dev/)** (Master Hub: [`https://repo.iamrp.dev`](https://repo.iamrp.dev)):
+
+```bash
+# OPKG Custom Feed (OpenWrt 23.05 and earlier)
+echo 'src/gz rpdev_all https://openwrt.repo.iamrp.dev/packages/all' >> /etc/opkg/customfeeds.conf
+opkg update && opkg install luci-app-nfs
+
+# APK v3 Custom Feed (OpenWrt 24.10+)
+echo 'https://openwrt.repo.iamrp.dev/packages/all' >> /etc/apk/repositories.d/rpdev.list
+apk update && apk add luci-app-nfs
+```
+
+---
+
+## 4. Modern Packaging Pipeline (APK v3 & Legacy IPK)
 
 The project incorporates an automated GitHub Actions CI workflow capable of producing packages for both cutting-edge and legacy OpenWrt environments:
 
@@ -119,7 +135,7 @@ opkg update && opkg install luci-app-nfs_1.2.0_all.ipk
 
 ---
 
-## 4. Performance Benchmarks
+## 5. Performance Benchmarks
 
 Benchmarking storage throughput across a 2.5 Gbps local network backbone (MediaTek MT7986 ARM64 OpenWrt Router connected to NVMe storage):
 

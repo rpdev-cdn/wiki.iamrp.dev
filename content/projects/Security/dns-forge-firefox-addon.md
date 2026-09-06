@@ -47,9 +47,16 @@ graph TD
     end
 ```
 
+## 1. Sovereign Self-Hosted Distribution (`firefox.repo.iamrp.dev`)
+
+In addition to upstream AMO review, DNS Forge is distributed directly via the sovereign distribution portal at **[`https://firefox.repo.iamrp.dev/`](https://firefox.repo.iamrp.dev/)** (Master Hub: [`https://repo.iamrp.dev`](https://repo.iamrp.dev)):
+- **Direct Add-on Package**: [`dns-forge-v1.0.0.xpi`](https://firefox.repo.iamrp.dev/addons/nextdns-firefox-addon-1.0.0.xpi)
+- **Automatic Updates Manifest**: [`https://firefox.repo.iamrp.dev/updates.json`](https://firefox.repo.iamrp.dev/updates.json)
+- **Integrity Checksum (SHA-256)**: `461cf346e7032af83599b311d6e9b60a43b8bdb116b32e068b9408b7010f0ee4`
+
 ---
 
-## 1. Key Engineering Principles & Architectural Lessons
+## 2. Key Engineering Principles & Architectural Lessons
 
 ### A. Single Delegated UI Event Listener Pattern
 In complex, multi-tab WebExtension popups, attaching event listeners directly to dynamic DOM elements creates event collision, shadowing, and memory leaks upon popup re-renders. 
