@@ -46,18 +46,18 @@ graph LR
         VLC["vlc-live-555 (75%)<br><i>Dual-Track CI/CD Matrix</i>"]
         GPSD["gpsdRelay (80%)<br><i>Mobile GPS/NTP Daemon</i>"]
         Ops["ops-manager (80%)<br><i>Cluster Cockpit & Audit</i>"]
-        FeedMod["RPDev-Feed-Modules (80%)<br><i>Card Plugins</i>"]
         ASU["openwrt-asu (85%)<br><i>FastAPI Sysupgrade Engine</i>"]
         KAddons["kodi-addons (85%)<br><i>Addon Monorepo</i>"]
         RVX["rvx-builds (85%)<br><i>Tasker + GHA Patching</i>"]
-        Feed["RPDev-Feed (88%)<br><i>AIDL Minus-One Overlay</i>"]
     end
     subgraph T5["Tier 5: Production (90–99%)"]
         NextDNS["nextdns-firefox-addon (92%)<br><i>Privacy Browser Extension</i>"]
-        Launcher["RPDev-Launcher (92%)<br><i>Android 16 Home Screen</i>"]
         NFS["luci-app-nfs (95%)<br><i>Kernel NFS Package</i>"]
         Audit["infra-audit-engine (95%)<br><i>FIDO2 Topology Auditor</i>"]
         WebPages["rpdevs-builds.github.io (95%)<br><i>Static Pages Redirect</i>"]
+        FeedMod["RPDev-Feed-Modules (95%)<br><i>Card Plugins Catalog</i>"]
+        Launcher["RPDev-Launcher (98%)<br><i>Android 16 Home Screen GA</i>"]
+        Feed["RPDev-Feed (98%)<br><i>AIDL Minus-One Overlay GA</i>"]
     end
 
     T1 --> T2 --> T3 --> T4 --> T5
@@ -83,16 +83,16 @@ The following table provides the comprehensive audit of all active, qualifying p
 
 | # | Project / Repository | Category | Maturity | Lifecycle Stage | Active Core Components | Outstanding Gaps to 100% |
 |---|---|---|:---:|---|---|---|
-| 1 | **[[projects/Networking/openwrt-kernel-nfs|luci-app-nfs]]** | Networking | **95%** | Production Package | UCI schema, LuCI controllers, dual APKv3/OPKG, 282 MB/s MT6000 wire speed | Upstream OpenWrt community package feed submission |
-| 2 | **[[projects/Infrastructure/infra-audit-engine/index|infra-audit-engine]]** | Infrastructure | **95%** | Production Fleet Core | FIDO2 hardware decryption, multi-host SSH probing, `CURRENT_ENV.yml` drift generator | Webhook alert dispatch on uncommitted config drift |
-| 3 | **`rpdevs-builds.github.io`** | Web / CDN | **95%** | Production Landing | Automated hourly sync workflow, clean `ubuntu-latest` execution, canonical zip redirect | Search index for hosted zip artifacts |
-| 4 | **[[projects/Android/rpdev-launcher/index|RPDev-Launcher]]** | Mobile | **92%** | Production Mobile App | AOSP Android 16 SDK 36, DataStore flows, folder cycle guards, DeX bridge, icon shaders | F-Droid inclusion metadata & tablet layout polish |
-| 5 | **[[projects/Security/dns-forge-firefox-addon|nextdns-firefox-addon]]** | Security | **92%** | Release-Ready Extension | AMO-compliant MV3, single delegated event listener, SSE log streaming, Jest test suite | Official AMO store publication |
-| 6 | **[[projects/Android/rpdev-feed/index|RPDev-Feed]]** | Mobile | **88%** | Production Companion | AIDL overlay server, on-device RSS parsing, Room DB, zero Play Services dependency | Swipe-to-dismiss gesture smoothing |
-| 7 | **[[projects/Networking/openwrt-asu-builder|openwrt-asu]]** | Networking | **85%** | Operational Control Plane | FastAPI REST API, RQ worker queue, Docker ImageBuilders, live on `llmadmin01:8000` | Cloudflare Zero Trust tunnel ingress routing |
-| 8 | **[[projects/Tools/kodi-ecosystem|kodi-addons]]** | Streaming | **85%** | Production Monorepo | Monorepo packaging Megacloud & FlareSolverr, automated XML repo generator, key sync | Fix `working-directory` path drift in build workflows |
-| 9 | **[[projects/Android/rvx-builds|rvx-builds]]** | Mobile | **85%** | Operational Utility | Tasker native GUI, Join webhook push, GHA workflow dispatch, silent ADB Wi-Fi install | Automated upstream CLI patch version checks |
-| 10 | **[[projects/Android/rpdev-feed-modules/index|RPDev-Feed-Modules]]** | Mobile | **80%** | Functional Ecosystem | Modular Hub Card plugins (sensors, weather, telemetry), JSON schema validation | Dynamic remote module downloading |
+| 1 | **[[projects/Android/rpdev-launcher/index|RPDev-Launcher]]** | Mobile | **98%** | Production-Hardened GA | AOSP Android 16 SDK 37, DataStore flows, folder cycle guards, DeX bridge, AB-BA deadlock eliminated, GC listener retention, R8 shrinker | F-Droid inclusion metadata & tablet layout polish |
+| 2 | **[[projects/Android/rpdev-feed/index|RPDev-Feed]]** | Mobile | **98%** | Production-Hardened GA | AIDL overlay server, on-device RSS, Room DB, SSRF private IP blocking, Rome XXE protection, 2MB stream limit, OverlayView lifecycle cleanup, R8 ProGuard | Horizontal foldable tablet dual-pane feed polish |
+| 3 | **[[projects/Networking/openwrt-kernel-nfs|luci-app-nfs]]** | Networking | **95%** | Production Package | UCI schema, LuCI controllers, dual APKv3/OPKG, 282 MB/s MT6000 wire speed | Upstream OpenWrt community package feed submission |
+| 4 | **[[projects/Infrastructure/infra-audit-engine/index|infra-audit-engine]]** | Infrastructure | **95%** | Production Fleet Core | FIDO2 hardware decryption, multi-host SSH probing, `CURRENT_ENV.yml` drift generator | Webhook alert dispatch on uncommitted config drift |
+| 5 | **`rpdevs-builds.github.io`** | Web / CDN | **95%** | Production Landing | Automated hourly sync workflow, clean `ubuntu-latest` execution, canonical zip redirect | Search index for hosted zip artifacts |
+| 6 | **[[projects/Android/rpdev-feed-modules/index|RPDev-Feed-Modules]]** | Mobile | **95%** | Production-Hardened GA | Modular Hub Card plugins (sensors, weather, telemetry), 2MB stream bounds, JSON schemas, live on `launcher.repo.iamrp.dev` | In-app dynamic APK module signing verification |
+| 7 | **[[projects/Security/dns-forge-firefox-addon|nextdns-firefox-addon]]** | Security | **92%** | Release-Ready Extension | AMO-compliant MV3, single delegated event listener, SSE log streaming, Jest test suite | Official AMO store publication |
+| 8 | **[[projects/Networking/openwrt-asu-builder|openwrt-asu]]** | Networking | **85%** | Operational Control Plane | FastAPI REST API, RQ worker queue, Docker ImageBuilders, live on `llmadmin01:8000` | Cloudflare Zero Trust tunnel ingress routing |
+| 9 | **[[projects/Tools/kodi-ecosystem|kodi-addons]]** | Streaming | **85%** | Production Monorepo | Monorepo packaging Megacloud & FlareSolverr, automated XML repo generator, key sync | Fix `working-directory` path drift in build workflows |
+| 10 | **[[projects/Android/rvx-builds|rvx-builds]]** | Mobile | **85%** | Operational Utility | Tasker native GUI, Join webhook push, GHA workflow dispatch, silent ADB Wi-Fi install | Automated upstream CLI patch version checks |
 | 11 | **[[projects/Android/gpsd-relay|gpsdRelay]]** | Mobile | **80%** | Functional Mobile Utility | F-Droid package, raw GNSS sentence capture, synthetic NMEA generator, TCP/UDP sockets | Aggressive OEM Doze mode keep-alive tuning |
 | 12 | **`ops-manager`** | Operations | **80%** | Operational Hub | Cluster housekeeping scripts, license audits, telemetry checks, `ubuntu-latest` CI | Unified CLI wrapper and central logging dashboard |
 | 13 | **[[projects/Tools/vlc-live-555|vlc-live-555]]** | Streaming | **75%** | Automated Matrix Engine | Dual-track CI/CD matrix compiling Live555 static libs and VLC with Linux VA-API | macOS cross-compilation pipeline stability |

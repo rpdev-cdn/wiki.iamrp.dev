@@ -4,9 +4,9 @@ description: "Companion add-ons and card providers for RPDev Feed with open API 
 ---
 
 
-> [!info] Project Maturity: **80% — Functional Ecosystem (Tier 4)**
-> - **Lifecycle Status**: Active Modular Architecture
-> - **Active Components**: Pluggable card catalog (sensors, weather, telemetry), JSON schema contract validation, Gradle multi-module architecture
+> [!info] Project Maturity: **95% — Production-Hardened GA (Tier 5)**
+> - **Lifecycle Status**: Production GA Release (`v1.2.1`)
+> - **Active Components**: Pluggable card catalog (sensors, weather, telemetry), JSON schema contract validation, Gradle multi-module architecture, 2MB safe streaming response limits, live Let's Encrypt TLS catalog deployment on `launcher.repo.iamrp.dev`
 > - **Pending Enhancements**: Dynamic remote module loading without APK re-bundling
 
 # RPDev Feed Modules Documentation
@@ -16,6 +16,7 @@ description: "Companion add-ons and card providers for RPDev Feed with open API 
 - **Repository**: [`https://github.com/RPDevs-Builds/RPDev-Feed-Modules`](https://github.com/RPDevs-Builds/RPDev-Feed-Modules)
 - **Catalog Registry**: [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev)
 - **Schemas**: [`card-v1.schema.json`](https://cdn.iamrp.dev/feed/schemas/card-v1.schema.json)
+- **Latest Release**: `v1.2.1` (GA)
 
 ---
 

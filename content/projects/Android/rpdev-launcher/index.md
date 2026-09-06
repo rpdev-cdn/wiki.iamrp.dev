@@ -4,10 +4,10 @@ description: "Architecture, engineering guide, and build system for the sovereig
 ---
 
 
-> [!info] Project Maturity: **92% — Production Mobile App (Tier 5)**
-> - **Lifecycle Status**: Active Daily Driver Application
-> - **Active Components**: AOSP Android 16 SDK 36, Kotlin DataStore state flows, recursive folder cycle guards, DeX desktop integration, custom icon shaders
-> - **Pending Enhancements**: F-Droid inclusion metadata submission, foldable split-screen display tuning
+> [!info] Project Maturity: **98% — Production-Hardened GA (Tier 5)**
+> - **Lifecycle Status**: Production GA Release (`v1.2.0`)
+> - **Active Components**: AOSP Android 16 SDK 37, Kotlin DataStore state flows, recursive folder cycle guards, DeX desktop integration, AB-BA deadlock eliminated in `LauncherModel`, strong GC retention for `LauncherPrefs` listeners, R8 shrinker
+> - **Pending Enhancements**: F-Droid inclusion metadata submission, foldable split-screen display polish
 
 # RPDev Launcher Documentation
 
@@ -17,6 +17,7 @@ description: "Architecture, engineering guide, and build system for the sovereig
 - **Production Site**: [launcher.iamrp.dev](https://launcher.iamrp.dev)
 - **Application ID**: `iamrp.dev.launcher`
 - **Primary Component**: `iamrp.dev.launcher.RPDevLauncher`
+- **Latest Release**: `v1.2.0` (GA)
 
 ---
 
@@ -45,6 +46,16 @@ RPDev-Launcher/
 2. **[Custom Drawer Folder Icons](custom-drawer-icons-example.md)**: `CustomizeFolderSheet.kt`, bottom-sheet icon picker, and JSON metadata serialization.
 3. **[Android 16 Pixel Launcher Parity](pixel-launcher-parity.md)**: Reverse-engineered shortcuts from Android 16 `NexusLauncherRelease.apk`.
 4. **[Feed Provider Hardening](preferences-hardening.md)**: Dynamic provider discovery and deduplication of legacy debug packages.
+
+---
+
+## GA Concurrency Hardening & Reliability
+
+With the `v1.2.0` General Availability graduation, critical core engine concurrency safeguards were implemented:
+- **AB-BA Deadlock Elimination**: Resolved potential lock inversion in `LauncherModel.java` between `mCallbacksList` and `mModelLock` by enforcing decoupled lock acquisition and snapshotting.
+- **Preference Listener Retention**: Prevented GC of `LauncherPrefs` change listeners by maintaining hard references in `LauncherAppState`.
+- **Android 14+ Sovereign Baseline**: Cleanly targeting Android 16 (`compileSdk = 37`) with `minSdk = 34`, purging 170+ MB of legacy compatibility jars.
+- **Production Packaging**: Clean ProGuard/R8 release shrinking with zero missing symbol warnings.
 
 ---
 

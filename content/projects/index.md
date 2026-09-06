@@ -16,9 +16,9 @@ aliases:
 ```mermaid
 graph TD
     subgraph Mobile["📱 Mobile Ecosystem"]
-        Launcher["RPDev Launcher (92%)<br><i>AOSP Android 16</i>"]
-        Feed["RPDev Feed (88%)<br><i>AIDL Minus-One</i>"]
-        Modules["Hub Card Modules (80%)<br><i>Pluggable Cards</i>"]
+        Launcher["RPDev Launcher (98%)<br><i>AOSP Android 16 GA</i>"]
+        Feed["RPDev Feed (98%)<br><i>AIDL Minus-One GA</i>"]
+        Modules["Hub Card Modules (95%)<br><i>Pluggable Cards GA</i>"]
         GPSD["gpsdRelay (80%)<br><i>NMEA NTP Clock</i>"]
         RVX["RVX-Builds (85%)<br><i>Tasker + GHA Patching</i>"]
     end
@@ -55,9 +55,9 @@ graph TD
 ## 🧭 Projects Knowledge Catalog
 
 ### 📱 Android & Mobile Systems
-- **[[projects/Android/rpdev-launcher/index|RPDev Launcher User & Architecture Manual]]** `92% [Production]` — *AOSP Android 16 home screen, DataStore state flows, recursive folder cycle guards.*
-- **[[projects/Android/rpdev-feed/index|RPDev Feed Companion Manual]]** `88% [Production]` — *Sovereign -1 screen, AIDL overlay server, on-device RSS parsing, Room database.*
-- **[[projects/Android/rpdev-feed-modules/index|Hub Card Modules Ecosystem]]** `80% [Operational]` — *Technical guides and JSON schemas for all pluggable card modules.*
+- **[[projects/Android/rpdev-launcher/index|RPDev Launcher User & Architecture Manual]]** `98% [Production GA]` — *AOSP Android 16 home screen, DataStore state flows, recursive folder cycle guards, zero known deadlocks.*
+- **[[projects/Android/rpdev-feed/index|RPDev Feed Companion Manual]]** `98% [Production GA]` — *Sovereign -1 screen, AIDL overlay server, on-device RSS parsing, Room DB, comprehensive pre-GA security hardening.*
+- **[[projects/Android/rpdev-feed-modules/index|Hub Card Modules Ecosystem]]** `95% [Production GA]` — *Technical guides, JSON schemas, and live catalog registry on launcher.repo.iamrp.dev.*
 - **[[projects/Android/gpsd-relay|gpsdRelay: Stratum-1 NMEA GPS Telemetry]]** `80% [Operational]` — *Transforms Android GNSS hardware into network-accessible reference clocks.*
 - **[[projects/Android/rvx-builds|RVX-Builds Mobile-Cloud Pipeline]]** `85% [Operational]` — *Zero-touch Tasker, Join API, and GitHub Actions automated binary compilation and silent ADB Wi-Fi installs.*
 - **[[projects/mobile-stack|Mobile Stack Unified Architecture]]** — *End-to-end specification connecting launcher, feed overlay, and edge CDN.*
