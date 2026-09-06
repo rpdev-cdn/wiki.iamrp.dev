@@ -1,11 +1,11 @@
 ---
 title: "RPDev Master Wiki"
-description: "The welcoming knowledge base, user manual, and technical registry for RPDev Launcher, RPDev Feed, and Hub Modules."
+description: "The welcoming knowledge base, user manual, and technical registry for RPDev Launcher, RPDev Feed, Hub Modules, and Engineering Systems."
 ---
 
 <div class="wiki-hero">
   <h1>📖 RPDev Ecosystem Wiki</h1>
-  <p>Welcome! Whether you are setting up your Android phone for the first time or looking for deep technical specifications on our open-source AIDL protocols, you are in the right place.</p>
+  <p>Welcome! Whether you are setting up your Android phone for the first time, deploying homelab infrastructure, or reviewing deep technical specifications on our open-source AIDL protocols and security research, you are in the right place.</p>
 </div>
 
 <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: center; margin: 2rem 0; flex-wrap: wrap;">
@@ -48,17 +48,17 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <span class="card-tag">9 Subsections →</span>
   </a>
 
-  <a class="portal-card" href="getting-started/faq/">
-    <div class="card-icon">💡</div>
-    <div class="card-title">Help & Troubleshooting</div>
-    <div class="card-desc">Having trouble swiping to the feed? Need help generating an API token? Clear answers to common questions.</div>
-    <span class="card-tag">Troubleshooting →</span>
+  <a class="portal-card" href="research/">
+    <div class="card-icon">🛡️</div>
+    <div class="card-title">Security & AI Research Hub</div>
+    <div class="card-desc">Capstone theses, autonomous multi-agent swarm architecture, localized LLM control planes, RF telemetry, and DFIR runbooks.</div>
+    <span class="card-tag">18 Monographs →</span>
   </a>
 
   <a class="portal-card" href="projects/">
     <div class="card-icon">🏗️</div>
     <div class="card-title">Projects Documentation Hub</div>
-    <div class="card-desc">Comprehensive technical manuals, fleet runbooks, OpenWrt guides, and hardware security specs for all projects.</div>
+    <div class="card-desc">Comprehensive technical manuals, fleet runbooks, OpenWrt guides, hardware security specs, and DocIngest crawler.</div>
     <span class="card-tag">All Projects →</span>
   </a>
 
@@ -67,6 +67,20 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <div class="card-title">Developer & Power User Hub</div>
     <div class="card-desc">Build from source, write custom Hub plugins, inspect JSON schemas, and understand the AIDL overlay bridge.</div>
     <span class="card-tag">Architecture & Code →</span>
+  </a>
+
+  <a class="portal-card" href="projects/Governance/">
+    <div class="card-icon">📋</div>
+    <div class="card-title">Enterprise Governance & Policies</div>
+    <div class="card-desc">Modern enterprise cybersecurity policies, change management frameworks, and incident response runbooks.</div>
+    <span class="card-tag">18 Policies →</span>
+  </a>
+
+  <a class="portal-card" href="getting-started/faq/">
+    <div class="card-icon">💡</div>
+    <div class="card-title">Help & Troubleshooting</div>
+    <div class="card-desc">Having trouble swiping to the feed? Need help generating an API token? Clear answers to common questions.</div>
+    <span class="card-tag">Troubleshooting →</span>
   </a>
 </div>
 
@@ -84,8 +98,10 @@ description: "The welcoming knowledge base, user manual, and technical registry 
 
 | Service | Address | What it does |
 |---|---|---|
+| **RPDev Portfolio** | [iamrp.dev](https://iamrp.dev) | Flagship systems architecture, security research, and executive resume |
 | **RPDev Launcher** | [launcher.iamrp.dev](https://launcher.iamrp.dev) | Official home of the RPDev Launcher app |
 | **RPDev Feed** | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) | Feature showcase of the sovereign feed companion |
 | **Module Repository** | [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev) | Interactive catalog of all 9 available card modules |
+| **DocIngest Engine** | [docingest.iamrp.dev](https://docingest.iamrp.dev) | Documentation crawler and MCP knowledge corpus |
 | **Edge CDN** | [cdn.iamrp.dev](https://cdn.iamrp.dev) | High-speed edge network serving icons, schemas, and catalogs |
 | **Source Code** | [github.com/RPDevs-Builds](https://github.com/RPDevs-Builds) | Open-source repositories under GPL v3.0 |
