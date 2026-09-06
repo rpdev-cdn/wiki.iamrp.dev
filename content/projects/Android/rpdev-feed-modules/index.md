@@ -14,7 +14,7 @@ description: "Companion add-ons and card providers for RPDev Feed with open API 
 > The companion module monorepo hosting pluggable cards, telemetry readers, and widgets for RPDev Feed.
 
 - **Repository**: [`https://github.com/RPDevs-Builds/RPDev-Feed-Modules`](https://github.com/RPDevs-Builds/RPDev-Feed-Modules)
-- **Catalog Registry**: [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev)
+- **Catalog Registry**: [repo.iamrp.dev/launcher](https://repo.iamrp.dev/launcher)
 - **Schemas**: [`card-v1.schema.json`](https://cdn.iamrp.dev/feed/schemas/card-v1.schema.json)
 
 ---

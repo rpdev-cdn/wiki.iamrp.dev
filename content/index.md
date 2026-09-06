@@ -62,6 +62,13 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <span class="card-tag">Edge Delivery →</span>
   </a>
 
+  <a class="portal-card" href="https://repo.iamrp.dev">
+    <div class="card-icon">📦</div>
+    <div class="card-title">Master Repository Hub</div>
+    <div class="card-desc">Browse and install our custom distributions: OpenWrt IPKs, Kodi Add-ons, Firefox Extensions, and Android APKs.</div>
+    <span class="card-tag">View Repositories →</span>
+  </a>
+
   <a class="portal-card" href="projects/">
     <div class="card-icon">🏗️</div>
     <div class="card-title">Projects Documentation Hub</div>
@@ -108,7 +115,7 @@ description: "The welcoming knowledge base, user manual, and technical registry 
 | **RPDev Portfolio** | [iamrp.dev](https://iamrp.dev) | Flagship systems architecture, security research, and executive resume |
 | **RPDev Launcher** | [launcher.iamrp.dev](https://launcher.iamrp.dev) | Official home of the RPDev Launcher app |
 | **RPDev Feed** | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) | Feature showcase of the sovereign feed companion |
-| **Module Repository** | [repo.launcher.iamrp.dev](https://repo.launcher.iamrp.dev) | Interactive catalog of all 9 available card modules |
+| **Master Repository Hub** | [repo.iamrp.dev](https://repo.iamrp.dev) | Central registry for RPDev apps, OpenWrt packages, Firefox add-ons, and Kodi add-ons |
 | **DocIngest Engine** | [docingest.iamrp.dev](https://docingest.iamrp.dev) | Documentation crawler and MCP knowledge corpus |
 | **Edge CDN** | [cdn.iamrp.dev](https://cdn.iamrp.dev) | High-speed edge network serving icons, schemas, and catalogs |
 | **Source Code** | [github.com/RPDevs-Builds](https://github.com/RPDevs-Builds) | Open-source repositories under GPL v3.0 |
