@@ -51,5 +51,5 @@ The RPDev Mobile Stack provides a sovereign, private alternative to Google Mobil
 |---|---|---|
 | **RPDev Launcher** | `RPDevs-Builds/RPDev-Launcher` | [launcher.iamrp.dev](https://launcher.iamrp.dev) |
 | **RPDev Feed** | `RPDevs-Builds/RPDev-Feed` | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) |
-| **Feed Modules** | `RPDevs-Builds/RPDev-Feed-Modules` | [repo.iamrp.dev/launcher](https://repo.iamrp.dev/launcher) |
+| **Feed Modules** | `RPDevs-Builds/RPDev-Feed-Modules` | [launcher.repo.iamrp.dev](https://launcher.repo.iamrp.dev) |
 | **Edge CDN** | `rpdev-cdn/cdn.iamrp.dev` | [cdn.iamrp.dev](https://cdn.iamrp.dev) |

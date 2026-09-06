@@ -19,7 +19,7 @@ suspend fun fetchCatalog(forceRefresh: Boolean = false): Result<List<CatalogModu
         _isLoadingCatalog.value = true
         try {
             // Tier 1: Primary Sovereign Subdomain
-            val customDomainUrl = "https://repo.iamrp.dev/launcher/catalog/modules.json"
+            val customDomainUrl = "https://launcher.repo.iamrp.dev/catalog/modules.json"
             // Tier 2: Replicated Sovereign CDN
             val cdnBackupUrl = "https://cdn.iamrp.dev/feed/modules.json"
             // Tier 3: Git Raw Mirror

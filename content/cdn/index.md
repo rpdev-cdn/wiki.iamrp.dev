@@ -88,7 +88,7 @@ In addition to static asset delivery via `cdn.iamrp.dev`, the ecosystem hosts de
 | **[`kodi.repo.iamrp.dev`](https://kodi.repo.iamrp.dev)** | **Kodi (Omega / Piers)** | `addons.xml`, `addons.xml.md5`, `repository.rpdevs-*.zip`, streaming resolvers | Add `https://kodi.repo.iamrp.dev/` as File Manager Source |
 | **[`openwrt.repo.iamrp.dev`](https://openwrt.repo.iamrp.dev)** | **OpenWrt (OPKG / APK v3)** | `Packages.gz`, `APKINDEX.tar.gz`, `luci-app-nfs`, `openwrt-blackhole` | Add to `/etc/opkg/customfeeds.conf` or `/etc/apk/repositories.d/` |
 | **[`firefox.repo.iamrp.dev`](https://firefox.repo.iamrp.dev)** | **Mozilla Firefox MV3** | `updates.json`, signed `.xpi` packages, DNS Forge extension | Direct install via [`firefox.repo.iamrp.dev`](https://firefox.repo.iamrp.dev) |
-| **[`repo.iamrp.dev/launcher`](https://repo.iamrp.dev/launcher)** | **RPDev Launcher** | Pluggable Hub Card JSON schemas, descriptors, preview mockups | Explore 9 modules at [`repo.iamrp.dev/launcher`](https://repo.iamrp.dev/launcher) |
+| **[`launcher.repo.iamrp.dev`](https://launcher.repo.iamrp.dev)** | **RPDev Launcher** | Pluggable Hub Card JSON schemas, descriptors, preview mockups | Explore 9 modules at [`launcher.repo.iamrp.dev`](https://launcher.repo.iamrp.dev) |
 
 ## 🔒 Security & Verification Headers
 
