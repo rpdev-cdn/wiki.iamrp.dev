@@ -14,6 +14,7 @@ const EcosystemNav: QuartzComponent = () => {
         </div>
         <div class="ecosystem-links">
           <a href="https://iamrp.dev" class="eco-link" data-site="iamrp.dev">Portfolio</a>
+          <a href="https://blog.iamrp.dev" class="eco-link" data-site="blog.iamrp.dev">Blog</a>
           <a href="https://launcher.iamrp.dev" class="eco-link" data-site="launcher.iamrp.dev">Launcher</a>
           <a href="https://feed.launcher.iamrp.dev" class="eco-link" data-site="feed.launcher.iamrp.dev">Feed</a>
           <a href="https://wiki.iamrp.dev" class="eco-link" data-site="wiki.iamrp.dev">Wiki</a>

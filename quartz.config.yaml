@@ -171,6 +171,8 @@ plugins:
     options:
       links:
         GitHub: https://github.com/RPDevs-Builds
+        Portfolio: https://iamrp.dev
+        Blog: https://blog.iamrp.dev
         Launcher: https://launcher.iamrp.dev
         Feed: https://feed.launcher.iamrp.dev
         Repository: https://repo.iamrp.dev
