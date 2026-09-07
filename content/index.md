@@ -96,6 +96,13 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <div class="card-desc">Having trouble swiping to the feed? Need help generating an API token? Clear answers to common questions.</div>
     <span class="card-tag">Troubleshooting →</span>
   </a>
+
+  <a class="portal-card" href="/projects/interconnected-works-and-ontology">
+    <div class="card-icon">🕸️</div>
+    <div class="card-title">Knowledge Graph & Taxonomy</div>
+    <div class="card-desc">Decentralized architecture, cross-project protocol bindings (AIDL, MCP, OCI), and 7-domain semantic tag ontology.</div>
+    <span class="card-tag">Ecosystem Mesh →</span>
+  </a>
 </div>
 
 ---
@@ -113,8 +120,10 @@ description: "The welcoming knowledge base, user manual, and technical registry 
 | Service | Address | What it does |
 |---|---|---|
 | **RPDev Portfolio** | [iamrp.dev](https://iamrp.dev) | Flagship systems architecture, security research, and executive resume |
+| **Interconnected Graph** | [iamrp.dev/tags/](https://iamrp.dev/tags/) | Interactive topological graphic view connecting all 39+ repos and tag taxonomies |
 | **RPDev Launcher** | [launcher.iamrp.dev](https://launcher.iamrp.dev) | Official home of the RPDev Launcher app |
 | **RPDev Feed** | [feed.launcher.iamrp.dev](https://feed.launcher.iamrp.dev) | Feature showcase of the sovereign feed companion |
+| **RPDev Blog** | [blog.iamrp.dev](https://blog.iamrp.dev) | Long-form technical articles, systems field guides, and applied research monographs |
 | **Master Repository Hub** | [repo.iamrp.dev](https://repo.iamrp.dev) | Central registry for RPDev apps, OpenWrt packages, Firefox add-ons, and Kodi add-ons |
 | **DocIngest Engine** | [docingest.iamrp.dev](https://docingest.iamrp.dev) | Documentation crawler and MCP knowledge corpus |
 | **Edge CDN** | [cdn.iamrp.dev](https://cdn.iamrp.dev) | High-speed edge network serving icons, schemas, and catalogs |

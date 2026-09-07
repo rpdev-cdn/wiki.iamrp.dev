@@ -94,9 +94,15 @@ graph TD
 ### 📋 Enterprise Governance & Policies
 - **[[projects/Governance/index|Enterprise Policy Standards & Charters]]** — *18 modernized IT and cybersecurity policies aligned to NIST CSF 2.0 and SOC 2.*
 
+### 🕸️ Ecosystem Knowledge Graph & Ontology
+- **[[projects/interconnected-works-and-ontology|Ecosystem Knowledge Graph, Tag Taxonomy & Interconnected Works]]** — *Topological cross-project architecture, protocol bindings (AIDL, MCP, OCI), and 7-domain semantic tag taxonomy connecting 39+ repositories.*
+- **[Central Interactive Graphic View (iamrp.dev/tags/) ↗](https://iamrp.dev/tags/)** — *Explore live draggable nodes and protocol bindings across all 6 engineering pillars.*
+
 ---
 
 ## 🔗 Quick Links
+- **[[projects/interconnected-works-and-ontology|Ecosystem Knowledge Graph & Tag Taxonomy]]**
 - **[[projects/maturity-matrix|RPDev Ecosystem Project Maturity & Lifecycle Matrix]]**
 - **[[index|Master Wiki Home]]**
 - **[iamrp.dev](https://iamrp.dev)**
+- **[iamrp.dev/tags/](https://iamrp.dev/tags/)**
