@@ -8,8 +8,6 @@ tags:
   - ntp
   - networking
   - telemetry
-aliases:
-  - /projects/android/gpsd-relay
 ---
 
 > [!note] Project Documentation Wiki

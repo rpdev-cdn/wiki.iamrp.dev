@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/networking/adsb-aviation-sdr
 ---
 
 > [!note] Project Documentation Wiki

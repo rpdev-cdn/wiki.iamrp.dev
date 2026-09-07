@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/infrastructure/self-hosted-build-fleet
 ---
 
 > [!note] Project Documentation Wiki

@@ -1,4 +1,7 @@
 ---
+title: "Launcher Settings Walkthrough"
+description: "A complete, plain-English reference explaining every option in RPDev Launcher settings."
+---
 
 <div style="display: flex; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; flex-wrap: wrap;">
   <div style="text-align: center; max-width: 280px;">
@@ -10,10 +13,6 @@
     <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem;">Feed Overlay Provider Config</p>
   </div>
 </div>
-
-title: "Launcher Settings Walkthrough"
-description: "A complete, plain-English reference explaining every option in RPDev Launcher settings."
----
 
 # ⚙️ Launcher Settings Walkthrough
 

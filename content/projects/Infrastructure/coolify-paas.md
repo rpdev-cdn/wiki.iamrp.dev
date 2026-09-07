@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/infrastructure/coolify-paas
 ---
 
 > [!note] Project Documentation Wiki

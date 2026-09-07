@@ -20,42 +20,42 @@ description: "The welcoming knowledge base, user manual, and technical registry 
 </div>
 
 <div class="portal-grid">
-  <a class="portal-card" href="getting-started/">
+  <a class="portal-card" href="/getting-started/">
     <div class="card-icon">🚀</div>
     <div class="card-title">Quick Start Guide</div>
     <div class="card-desc">Step-by-step instructions to download, install, and set up RPDev Launcher and Feed on any modern Android device.</div>
     <span class="card-tag">For Everyone →</span>
   </a>
 
-  <a class="portal-card" href="launcher/">
+  <a class="portal-card" href="/launcher/">
     <div class="card-icon">📱</div>
     <div class="card-title">RPDev Launcher Guide</div>
     <div class="card-desc">Master nested folders, custom drawer folder icons, desktop gestures, and explore every setting in plain English.</div>
     <span class="card-tag">User Manual →</span>
   </a>
 
-  <a class="portal-card" href="feed/">
+  <a class="portal-card" href="/feed/">
     <div class="card-icon">📰</div>
     <div class="card-title">RPDev Feed Guide</div>
     <div class="card-desc">Your private, sovereign -1 screen. Learn how to add RSS feeds, customize cards, reorder layouts, and read offline.</div>
     <span class="card-tag">Zero Telemetry →</span>
   </a>
 
-  <a class="portal-card" href="modules/">
+  <a class="portal-card" href="/modules/">
     <div class="card-icon">🧩</div>
     <div class="card-title">Modules Hub (All 9 Modules)</div>
     <div class="card-desc">Explore weather, battery health, calendar, GitHub activity, web scrapers, Home Assistant, Docker, and more.</div>
     <span class="card-tag">9 Subsections →</span>
   </a>
 
-  <a class="portal-card" href="research/">
+  <a class="portal-card" href="/research/">
     <div class="card-icon">🛡️</div>
     <div class="card-title">Security & AI Research Hub</div>
     <div class="card-desc">Capstone theses, autonomous multi-agent swarm architecture, localized LLM control planes, RF telemetry, and DFIR runbooks.</div>
     <span class="card-tag">18 Monographs →</span>
   </a>
 
-  <a class="portal-card" href="cdn/">
+  <a class="portal-card" href="/cdn/">
     <div class="card-icon">🌐</div>
     <div class="card-title">Edge CDN Network</div>
     <div class="card-desc">Architecture, release endpoints, SHA-256 verification, and Cloudflare edge caching for cdn.iamrp.dev.</div>
@@ -69,28 +69,28 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <span class="card-tag">View Repositories →</span>
   </a>
 
-  <a class="portal-card" href="projects/">
+  <a class="portal-card" href="/projects/">
     <div class="card-icon">🏗️</div>
     <div class="card-title">Projects Documentation Hub</div>
     <div class="card-desc">Comprehensive technical manuals, fleet runbooks, OpenWrt guides, hardware security specs, and DocIngest crawler.</div>
     <span class="card-tag">All Projects →</span>
   </a>
 
-  <a class="portal-card" href="developers/">
+  <a class="portal-card" href="/developers/">
     <div class="card-icon">🛠️</div>
     <div class="card-title">Developer & Power User Hub</div>
     <div class="card-desc">Build from source, write custom Hub plugins, inspect JSON schemas, and understand the AIDL overlay bridge.</div>
     <span class="card-tag">Architecture & Code →</span>
   </a>
 
-  <a class="portal-card" href="projects/Governance/">
+  <a class="portal-card" href="/projects/governance/">
     <div class="card-icon">📋</div>
     <div class="card-title">Enterprise Governance & Policies</div>
     <div class="card-desc">Modern enterprise cybersecurity policies, change management frameworks, and incident response runbooks.</div>
     <span class="card-tag">18 Policies →</span>
   </a>
 
-  <a class="portal-card" href="getting-started/faq/">
+  <a class="portal-card" href="/getting-started/faq">
     <div class="card-icon">💡</div>
     <div class="card-title">Help & Troubleshooting</div>
     <div class="card-desc">Having trouble swiping to the feed? Need help generating an API token? Clear answers to common questions.</div>

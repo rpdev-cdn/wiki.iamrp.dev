@@ -8,8 +8,6 @@ tags:
   - monorepo
   - cross-compilation
   - releases
-aliases:
-  - /projects/tools/kodi-ecosystem
 ---
 
 > [!note] Project Documentation Wiki

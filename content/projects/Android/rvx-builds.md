@@ -8,8 +8,6 @@ tags:
   - revanced
   - automation
   - adb
-aliases:
-  - /projects/android/rvx-builds
 ---
 
 > [!note] Project Documentation Wiki

@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/security/ventoy-super-tool
 ---
 
 > [!note] Project Documentation Wiki

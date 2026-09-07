@@ -8,9 +8,6 @@ tags:
   - kexec
   - golang
   - netboot
-aliases:
-  - /projects/theoryandearlydev/kexecboot
-  - /projects/theoryandearlydev/kexecboot/index
 ---
 
 > [!note] Project Documentation Wiki

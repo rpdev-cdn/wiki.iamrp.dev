@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/networking/openthread-border-router
 ---
 
 > [!note] Project Documentation Wiki

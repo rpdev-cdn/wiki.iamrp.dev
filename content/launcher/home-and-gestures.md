@@ -1,4 +1,7 @@
 ---
+title: "Home Screen & Gestures"
+description: "Master navigation gestures, grid layouts, and widget management in RPDev Launcher."
+---
 
 <div style="display: flex; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; flex-wrap: wrap;">
   <div style="text-align: center; max-width: 280px;">
@@ -10,10 +13,6 @@
     <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem;">Material You Widget Picker</p>
   </div>
 </div>
-
-title: "Home Screen & Gestures"
-description: "Master navigation gestures, grid layouts, and widget management in RPDev Launcher."
----
 
 # 👆 Home Screen & Gestures
 

@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/infrastructure/alloy-observability
 ---
 
 > [!note] Project Documentation Wiki

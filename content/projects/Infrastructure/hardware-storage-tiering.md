@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/infrastructure/hardware-storage-tiering
 ---
 
 > [!note] Project Documentation Wiki

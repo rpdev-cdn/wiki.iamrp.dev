@@ -8,7 +8,6 @@ tags:
   - governance
   - roadmap
 aliases:
-  - /projects/maturity-matrix
   - /projects/maturity
 ---
 

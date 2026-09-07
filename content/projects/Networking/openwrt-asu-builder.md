@@ -8,8 +8,6 @@ tags:
   - asu
   - fast-api
   - automation
-aliases:
-  - /projects/networking/openwrt-asu-builder
 ---
 
 > [!note] Project Documentation Wiki

@@ -8,8 +8,6 @@ tags:
   - smali
   - apktool
   - automation
-aliases:
-  - /projects/tools/apk-build-patch
 ---
 
 > [!note] Project Documentation Wiki

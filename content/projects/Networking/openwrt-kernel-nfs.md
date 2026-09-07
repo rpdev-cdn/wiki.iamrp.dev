@@ -8,8 +8,6 @@ tags:
   - nfs
   - storage
   - luci
-aliases:
-  - /projects/networking/openwrt-kernel-nfs
 ---
 
 > [!note] Project Documentation Wiki

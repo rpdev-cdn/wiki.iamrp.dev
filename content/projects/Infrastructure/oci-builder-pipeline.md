@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/infrastructure/oci-builder-pipeline
 ---
 
 > [!note] Project Documentation Wiki

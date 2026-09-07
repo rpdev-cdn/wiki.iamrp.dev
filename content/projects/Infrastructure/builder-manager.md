@@ -8,8 +8,6 @@ tags:
   - docker
   - oci
   - caching
-aliases:
-  - /projects/infrastructure/builder-manager
 ---
 
 > [!note] Project Documentation Wiki

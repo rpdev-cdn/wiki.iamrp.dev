@@ -9,8 +9,6 @@ tags:
   - kicad
   - sdr
   - lna
-aliases:
-  - /projects/networking/rf-board-tv
 ---
 
 > [!note] Project Documentation Wiki

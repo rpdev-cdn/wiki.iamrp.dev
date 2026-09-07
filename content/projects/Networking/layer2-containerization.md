@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/networking/layer2-containerization
 ---
 
 > [!note] Project Documentation Wiki

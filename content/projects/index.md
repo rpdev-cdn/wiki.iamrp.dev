@@ -1,9 +1,6 @@
 ---
 title: "RPDev Ecosystem Projects Documentation"
 description: "Comprehensive technical guides, operational playbooks, and architectural manuals for all projects across the RPDev ecosystem."
-aliases:
-  - /projects
-  - /projects/index
 ---
 
 # 🛠️ RPDev Ecosystem Projects Documentation

@@ -7,9 +7,6 @@ tags:
   - edge
   - releases
   - cloudflare
-aliases:
-  - /cdn
-  - /cdn/index
 ---
 
 # 🌐 Edge Content Delivery Network (CDN)

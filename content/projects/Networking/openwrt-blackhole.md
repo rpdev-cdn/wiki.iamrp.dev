@@ -8,8 +8,6 @@ tags:
   - security
   - dns
   - sinkhole
-aliases:
-  - /projects/networking/openwrt-blackhole
 ---
 
 > [!note] Project Documentation Wiki

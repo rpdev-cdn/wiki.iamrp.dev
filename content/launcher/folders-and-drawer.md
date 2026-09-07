@@ -1,4 +1,7 @@
 ---
+title: "Folders & App Drawer"
+description: "Master nested subfolders and custom drawer category icons in RPDev Launcher."
+---
 
 <div style="display: flex; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; flex-wrap: wrap;">
   <div style="text-align: center; max-width: 280px;">
@@ -10,10 +13,6 @@
     <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem;">Nested folder management &amp; naming</p>
   </div>
 </div>
-
-title: "Folders & App Drawer"
-description: "Master nested subfolders and custom drawer category icons in RPDev Launcher."
----
 
 # 📁 Folders & App Drawer
 

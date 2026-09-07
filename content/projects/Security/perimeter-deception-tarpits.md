@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/security/perimeter-deception-tarpits
 ---
 
 > [!note] Project Documentation Wiki

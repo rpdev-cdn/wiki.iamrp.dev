@@ -7,8 +7,6 @@ tags:
   - ai
   - mcp
   - docker
-aliases:
-  - /projects/security/mcp-gateway
 ---
 
 > [!note] Project Documentation Wiki

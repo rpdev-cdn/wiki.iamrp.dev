@@ -8,8 +8,6 @@ tags:
   - streaming
   - ci-cd
   - cross-compilation
-aliases:
-  - /projects/tools/vlc-live-555
 ---
 
 > [!note] Project Documentation Wiki

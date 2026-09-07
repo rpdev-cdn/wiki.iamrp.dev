@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/security/fido2-security-toolkit
 ---
 
 > [!note] Project Documentation Wiki

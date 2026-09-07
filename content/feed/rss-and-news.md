@@ -1,4 +1,7 @@
 ---
+title: "RSS Feeds & Reader Mode"
+description: "Follow your favorite news sources, import OPML, and read articles without clutter."
+---
 
 <div style="display: flex; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; flex-wrap: wrap;">
   <div style="text-align: center; max-width: 280px;">
@@ -10,10 +13,6 @@
     <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem;">RSS Feeds &amp; custom source management</p>
   </div>
 </div>
-
-title: "RSS Feeds & Reader Mode"
-description: "Follow your favorite news sources, import OPML, and read articles without clutter."
----
 
 # 📡 RSS Feeds & Reader Mode
 

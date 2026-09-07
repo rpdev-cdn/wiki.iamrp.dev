@@ -8,8 +8,6 @@ tags:
   - firefox
   - webextension
   - nextdns
-aliases:
-  - /projects/security/dns-forge-firefox-addon
 ---
 
 > [!note] Project Documentation Wiki

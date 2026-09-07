@@ -1,13 +1,12 @@
 ---
+title: "RPDev Feed Modules Hub"
+description: "Explore, configure, and understand all 9 card modules available in RPDev Feed."
+---
 
 <div style="text-align: center; margin: 1.8rem 0;">
   <img src="https://cdn.iamrp.dev/screenshots/feed_catalog_store.png" alt="Feed In-App Module Store" style="max-width: 320px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
   <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem;">The built-in Module Catalog inside RPDev Feed.</p>
 </div>
-
-title: "RPDev Feed Modules Hub"
-description: "Explore, configure, and understand all 9 card modules available in RPDev Feed."
----
 
 # 🧩 RPDev Feed Modules Hub
 

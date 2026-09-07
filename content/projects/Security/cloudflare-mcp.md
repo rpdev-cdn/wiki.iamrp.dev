@@ -7,8 +7,6 @@ tags:
   - ai
   - mcp
   - cloudflare
-aliases:
-  - /projects/security/cloudflare-mcp
 ---
 
 > [!note] Project Documentation Wiki

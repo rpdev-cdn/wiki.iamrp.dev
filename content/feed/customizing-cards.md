@@ -1,4 +1,7 @@
 ---
+title: "Customizing & Reordering Cards"
+description: "How to arrange, reorder, hide, and style your feed cards."
+---
 
 <div style="display: flex; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; flex-wrap: wrap;">
   <div style="text-align: center; max-width: 280px;">
@@ -10,10 +13,6 @@
     <p style="font-size: 0.85rem; color: #9ca3af; margin-top: 0.5rem;">Installed plugin management &amp; toggles</p>
   </div>
 </div>
-
-title: "Customizing & Reordering Cards"
-description: "How to arrange, reorder, hide, and style your feed cards."
----
 
 # 🎛️ Customizing & Reordering Cards
 

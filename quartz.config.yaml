@@ -40,6 +40,23 @@ configuration:
         highlight: rgba(0, 175, 175, 0.15) # Faint cyan link background
         textHighlight: rgba(0, 175, 175, 0.25) # Cyan markdown highlight (==text==)
 plugins:
+  - source: "@quartz-community/note-properties"
+    enabled: true
+    options:
+      includeAll: false
+      includedProperties:
+        - description
+        - tags
+        - aliases
+      excludedProperties: []
+      hidePropertiesView: false
+      delimiters: "---"
+      language: yaml
+    order: 5
+    layout:
+      position: beforeBody
+      priority: 15
+      display: all
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:

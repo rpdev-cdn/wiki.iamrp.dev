@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/security/wazuh-crowdsec-siem
 ---
 
 > [!note] Project Documentation Wiki

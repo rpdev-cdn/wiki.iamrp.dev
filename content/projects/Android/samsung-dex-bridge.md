@@ -4,8 +4,6 @@ tags:
   - wiki
   - project-manual
   - documentation
-aliases:
-  - /projects/android/samsung-dex-bridge
 ---
 
 > [!note] Project Documentation Wiki
