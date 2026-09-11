@@ -1,6 +1,8 @@
 ---
 title: "Launcher Technical Architecture"
 description: "Engineering documentation for AOSP Launcher3 base, DataStore preferences, and build steps."
+aliases:
+  - /launcher/technical-architecture
 ---
 
 # 🏛️ Launcher Technical Architecture

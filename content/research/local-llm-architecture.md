@@ -78,7 +78,7 @@ This architecture successfully allowed the business to leverage cutting-edge AI 
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[MCP_Gateway_Tool_Router|MCP Gateway Tool Router]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]].
-* **Technical Articles:** Deep dive in [[https://iamrp.dev/research-and-ramblings/articles/MCP_Enterprise|MCP In Enterprise Operations]], [[https://iamrp.dev/research-and-ramblings/articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [MCP In Enterprise Operations](https://iamrp.dev/articles/mcp_enterprise), [Zero Trust Edge Routing](https://iamrp.dev/zero_trust_edge).
 * **Applied Research:** Investigated in [[research/Agents_and_Architecture|Agents and Architecture]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Research-and-Ramblings/index|Digital Garden Index]].

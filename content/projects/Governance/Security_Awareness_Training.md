@@ -71,7 +71,7 @@ Adversaries leverage automated intelligence pipelines to craft hyper-personalize
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
+* **Technical Articles:** Deep dive in [Leadership Philosophy](https://iamrp.dev/Research-and-Ramblings/Articles/Philosophy).
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|index]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

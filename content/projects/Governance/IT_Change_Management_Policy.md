@@ -52,9 +52,9 @@ Emergency changes ("break-glass" scenarios) are permitted when immediate action 
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]], [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
+* **Production Systems:** Validated in [Builder Manager OCI Pipeline](https://iamrp.dev/projects/builder_manager_oci_pipeline), [Self Hosted CICD Build Fleet](https://iamrp.dev/projects/self_hosted_cicd_build_fleet).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [Systems and Automation Architecture](https://iamrp.dev/Research-and-Ramblings/Articles/Systems_Automation).
 * **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

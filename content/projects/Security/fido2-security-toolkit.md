@@ -40,9 +40,9 @@ This project provides a suite of tools to leverage FIDO2 security keys for hardw
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Hardware_Security_Key|Hardware Security Key]], [[Infra_Audit_Engine|Infra Audit Engine]].
+* **Production Systems:** Validated in [Hardware Security Key](https://iamrp.dev/projects/hardware_security_key), [Infra Audit Engine](https://iamrp.dev/projects/infra_audit_engine).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]], [[Projects/Governance-and-Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [Zero Trust Edge Routing](https://iamrp.dev/zero_trust_edge).
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Compliance_and_Governance|Compliance and Governance]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

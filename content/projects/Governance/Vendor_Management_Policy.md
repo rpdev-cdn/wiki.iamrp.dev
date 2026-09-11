@@ -63,9 +63,9 @@ In the event a relationship with an existing vendor is terminated, rigorous off-
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]].
+* **Production Systems:** Validated in [Infra Audit Engine](https://iamrp.dev/projects/infra_audit_engine).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Vendor_and_Resource_Management|Vendor and Resource Management]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Philosophy|Leadership Philosophy]].
+* **Technical Articles:** Deep dive in [Leadership Philosophy](https://iamrp.dev/Research-and-Ramblings/Articles/Philosophy).
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

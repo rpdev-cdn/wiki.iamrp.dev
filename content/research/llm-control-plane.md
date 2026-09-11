@@ -94,7 +94,7 @@ The Data Plane acts as the persistent, immutable memory layer:
 
 * **Production Systems:** Validated in [[MCP_Gateway_Tool_Router|MCP Gateway Tool Router]], [[Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]].
-* **Technical Articles:** Deep dive in [[https://iamrp.dev/research-and-ramblings/articles/MCP_Enterprise|MCP In Enterprise Operations]].
+* **Technical Articles:** Deep dive in [MCP In Enterprise Operations](https://iamrp.dev/articles/mcp_enterprise).
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]], [[research/Agents_and_Architecture|Agents and Architecture]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

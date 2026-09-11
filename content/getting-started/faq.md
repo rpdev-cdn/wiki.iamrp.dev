@@ -56,4 +56,4 @@ To prevent the feed from being closed:
 
 ### ❓ How do I update to newer versions?
 
-Simply download the latest `.apk` from [github.com/RPDevs-Builds](https://github.com/RPDevs-Builds) and install it directly over your existing installation. Your icons, layouts, and configurations will be completely preserved.
+Simply download the latest signed `.apk` from the **[Official Launcher Download Portal](https://launcher.iamrp.dev/download)** or direct from our **[Edge CDN](https://cdn.iamrp.dev)** and install it directly over your existing installation. Your icons, layouts, and configurations will be completely preserved. Source releases are also verified on **[GitHub](https://github.com/RPDevs-Builds)**.

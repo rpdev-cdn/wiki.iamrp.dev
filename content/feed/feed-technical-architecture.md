@@ -1,6 +1,8 @@
 ---
 title: "Feed Technical Architecture"
 description: "AIDL overlay IPC, WindowManager attachment, Compose UI, and hardware Keystore encryption."
+aliases:
+  - /feed/technical-architecture
 ---
 
 # ⚙️ Feed Technical Architecture

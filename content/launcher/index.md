@@ -29,7 +29,7 @@ description: "Master your home screen with recursive nested folders, custom draw
     <span class="card-tag">Settings Explained →</span>
   </a>
 
-  <a class="portal-card" href="technical-architecture.md">
+  <a class="portal-card" href="launcher-technical-architecture.md">
     <div class="card-icon">🏛️</div>
     <div class="card-title">Technical Architecture</div>
     <div class="card-desc">AOSP Launcher3 engine, Android 16 parity, DataStore preferences, and build commands.</div>

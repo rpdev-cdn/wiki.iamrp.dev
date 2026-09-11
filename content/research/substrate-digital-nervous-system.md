@@ -45,9 +45,9 @@ To provide a robust, scalable backbone for "Digital Intelligence" within the wor
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]], [[OpenThread_Border_Router|OpenThread Border Router]].
+* **Production Systems:** Validated in [Unified Fleet Observability Alloy](https://iamrp.dev/projects/unified_fleet_observability_alloy), [OpenThread Border Router](https://iamrp.dev/projects/openthread_border_router).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[https://iamrp.dev/research-and-ramblings/articles/Systems_Automation|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [Systems and Automation Architecture](https://iamrp.dev/systems_automation).
 * **Applied Research:** Investigated in [[research/Tools_and_Telemetry|Tools and Telemetry]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

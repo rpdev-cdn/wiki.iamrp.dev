@@ -13,10 +13,10 @@ Welcome to the RPDev ecosystem! This guide will walk you through downloading, in
     <div class="step-num">1</div>
     <div class="step-content">
       <h4>Download the APK Files</h4>
-      <p>Download the latest stable release APKs to your Android phone from our verified GitHub releases:</p>
+      <p>Download the latest official signed release APKs directly to your Android device from our edge CDN or verified GitHub releases:</p>
       <ul>
-        <li><strong>RPDev Launcher</strong>: <a href="https://github.com/RPDevs-Builds/RPDev-Launcher/releases/tag/v1.2-beta">Download RPDev Launcher v1.2-beta</a></li>
-        <li><strong>RPDev Feed</strong>: <a href="https://github.com/RPDevs-Builds/RPDev-Feed/releases/tag/v1.2-beta">Download RPDev Feed v1.2-beta</a></li>
+        <li><strong>RPDev Launcher (v1.2.0)</strong>: <a href="https://cdn.iamrp.dev/launcher/releases/RPDev-Launcher-v1.2.0.apk">Direct APK Download (Edge CDN)</a> &bull; <a href="https://github.com/RPDevs-Builds/RPDev-Launcher/releases">GitHub Releases</a></li>
+        <li><strong>RPDev Feed (v1.2.1 GA)</strong>: <a href="https://cdn.iamrp.dev/feed/releases/RPDev-Feed-v1.2.1.apk">Direct APK Download (Edge CDN)</a> &bull; <a href="https://github.com/RPDevs-Builds/RPDev-Feed/releases">GitHub Releases</a></li>
       </ul>
       <p><em>Tip: Both apps work seamlessly together, but you can also install RPDev Launcher on its own.</em></p>
     </div>
@@ -67,6 +67,6 @@ Welcome to the RPDev ecosystem! This guide will walk you through downloading, in
 
 ## 🎯 What to Do Next
 
-- 🎨 **[Customize Your Folders](launcher/folders-and-drawer.md)**: Put folders inside folders, or assign colorful icons to app categories in your drawer.
-- 🧩 **[Explore Feed Modules](modules/)**: Add weather, calendar agenda, GitHub activity, or smart home controls to your feed.
-- 💡 **[Read the FAQs](getting-started/faq.md)**: Check answers to common questions about battery settings, gestures, and updates.
+- 🎨 **[[launcher/folders-and-drawer|Customize Your Folders]]**: Put folders inside folders, or assign colorful icons to app categories in your drawer.
+- 🧩 **[[modules/index|Explore Feed Modules]]**: Add weather, calendar agenda, GitHub activity, or smart home controls to your feed.
+- 💡 **[[getting-started/faq|Read the FAQs]]**: Check answers to common questions about battery settings, gestures, and updates.

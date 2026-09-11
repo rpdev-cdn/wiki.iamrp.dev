@@ -29,7 +29,7 @@ description: "Your private, sovereign Google Discover alternative powered by Jet
     <span class="card-tag">Sovereign News →</span>
   </a>
 
-  <a class="portal-card" href="technical-architecture.md">
+  <a class="portal-card" href="feed-technical-architecture.md">
     <div class="card-icon">⚙️</div>
     <div class="card-title">Technical Architecture</div>
     <div class="card-desc">AIDL overlay service, WindowManager attachment, Room database, and security crypto.</div>

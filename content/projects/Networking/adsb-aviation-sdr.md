@@ -123,9 +123,9 @@ The station exposes a zero-latency WebGL radar interface on local port `8078`:
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[SDR_and_RF_Exploration|SDR and RF Exploration]], [[Unified_Fleet_Observability_Alloy|Unified Fleet Observability Alloy]].
+* **Production Systems:** Validated in [SDR and RF Exploration](https://iamrp.dev/projects--and--research/projects/rf--and--antennas/sdr_and_rf_exploration), [Unified Fleet Observability Alloy](https://iamrp.dev/projects/unified_fleet_observability_alloy).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Hardware/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [Bare Metal Diagnostics Lessons](https://iamrp.dev/component_repair).
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/index|index]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

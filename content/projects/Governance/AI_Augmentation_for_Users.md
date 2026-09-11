@@ -73,7 +73,7 @@ As AI assistants are granted access to live communication channels, external doc
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[MCP_Gateway_Tool_Router|MCP Gateway Tool Router]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]], [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Training]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/MCP_Enterprise|MCP In Enterprise Operations]].
+* **Technical Articles:** Deep dive in [MCP In Enterprise Operations](https://iamrp.dev/Research-and-Ramblings/Articles/MCP_Enterprise).
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

@@ -62,12 +62,12 @@ The CDN repository is structured into distinct top-level asset domains:
 
 | Path Prefix | Content Type | Caching Policy | Example Endpoint |
 |---|---|---|---|
-| `/feed/releases/` | Signed Feed APKs & SHA-256 checksums | `public, max-age=31536000, immutable` | [`/feed/releases/RPDev-Feed-v1.2.1-beta.apk`](https://cdn.iamrp.dev/feed/releases/RPDev-Feed-v1.2.1-beta.apk) |
-| `/launcher/releases/` | Signed Launcher APKs & checksums | `public, max-age=31536000, immutable` | `/launcher/releases/RPDev-Launcher-v1.2-beta.apk` |
-| `/modules/` | JSON card descriptors & schemas | `public, max-age=300, stale-while-revalidate=60` | `/modules/feed_modules_catalog.json` |
-| `/media/` | High-res recordings, GIFs & screenshots | `public, max-age=86400, stale-while-revalidate=3600` | [`/recordings/demo_feed_swipe.gif`](https://cdn.iamrp.dev/recordings/demo_feed_swipe.gif) |
-| `/logos/` | SVG and PNG ecosystem brand assets | `public, max-age=604800` | `/logos/rpdev_logo.svg` |
-| `/fonts/` | Air-gapped JetBrains Mono WOFF2/TTF fonts | `public, max-age=31536000, immutable` | `/fonts/JetBrainsMono-Regular.woff2` |
+| `/feed/releases/` | Signed Feed APKs & SHA-256 checksums | `public, max-age=31536000, immutable` | [`/feed/releases/RPDev-Feed-v1.2.1.apk`](https://cdn.iamrp.dev/feed/releases/RPDev-Feed-v1.2.1.apk) |
+| `/launcher/releases/` | Signed Launcher APKs & checksums | `public, max-age=31536000, immutable` | [`/launcher/releases/RPDev-Launcher-v1.2.0.apk`](https://cdn.iamrp.dev/launcher/releases/RPDev-Launcher-v1.2.0.apk) |
+| `/feed/` | JSON card descriptors & schemas | `public, max-age=300, stale-while-revalidate=60` | [`/feed/modules.json`](https://cdn.iamrp.dev/feed/modules.json) |
+| `/recordings/` | High-res recordings, GIFs & MP4 video | `public, max-age=86400, stale-while-revalidate=3600` | [`/recordings/demo_feed_swipe.gif`](https://cdn.iamrp.dev/recordings/demo_feed_swipe.gif) |
+| `/logos/` | SVG and PNG ecosystem brand assets | `public, max-age=604800` | [`/logos/rpdev_logo.svg`](https://cdn.iamrp.dev/logos/rpdev_logo.svg) |
+| `/fonts/` | Air-gapped JetBrains Mono WOFF2/TTF fonts | `public, max-age=31536000, immutable` | [`/fonts/jetbrains-mono/JetBrainsMono-Regular.woff2`](https://cdn.iamrp.dev/fonts/jetbrains-mono/JetBrainsMono-Regular.woff2) |
 | `/pdf/` | Cryptographically signed resumes & papers | `public, max-age=3600` | [`/pdf/Richard_Dissell_Resume.pdf`](https://cdn.iamrp.dev/pdf/Richard_Dissell_Resume.pdf) |
 
 ---

@@ -67,7 +67,7 @@ Playbooks are categorized into production-ready execution procedures and researc
 
 * **Swarm Hub:** Return to the primary overview on [[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|index]].
 * **Research Swarm Modules:** Explore [[research/Tools_and_Telemetry|Tools and Telemetry]], [[research/Sources_and_Matrix|Sources and Matrix]], [[research/Lab_Validated_Playbooks|Lab Validated Playbooks]].
-* **Production Systems:** Validated in [[Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Perimeter_Deception_and_Tarpits|Perimeter Deception and Tarpits]].
+* **Production Systems:** Validated in [Wazuh CrowdSec SIEM](https://iamrp.dev/projects/wazuh_crowdsec_siem), [Perimeter Deception and Tarpits](https://iamrp.dev/projects/perimeter_deception_and_tarpits).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response Plan]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Digital Garden Index]].

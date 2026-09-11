@@ -185,9 +185,9 @@ The output `dependency_registry.json` serves as an authoritative inventory for l
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]], [[Layer2_Containerization|Layer2 Containerization]].
+* **Production Systems:** Validated in [Self Hosted CICD Build Fleet](https://iamrp.dev/projects/self_hosted_cicd_build_fleet), [Layer2 Containerization](https://iamrp.dev/projects/layer2_containerization).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle]], [[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [Systems and Automation Architecture](https://iamrp.dev/systems_automation).
 * **Applied Research:** Investigated in [[Codex_Arcana|Codex Arcana]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

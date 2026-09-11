@@ -96,7 +96,7 @@ graph TD
 | Framework | Scope & Enforcement | Standards Alignment |
 |---|---|---|
 | **[[Projects/Governance-and-Policies/Software_Development_Life_Cycle|Software Development Life Cycle (SDLC)]]** | Secure development practices: AI-assisted coding guardrails, automated SAST/DAST, Software Bill of Materials (SBOM) attestation, and signature verification. | NIST SSDF v1.1, OWASP SAMM, ISO 27001 A.8.25 |
-| **[[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management Policy]]** | Declarative GitOps workflows, mandatory dual-engineer peer review, automated drift reconciliation via [[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]], and zero manual production changes. | ITIL v4, SOC 2 CC8.1, ISO 27001 A.8.32 |
+| **[[Projects/Governance-and-Policies/IT_Change_Management_Policy|IT Change Management Policy]]** | Declarative GitOps workflows, mandatory dual-engineer peer review, automated drift reconciliation via [Infra Audit Engine](https://iamrp.dev/Projects/Infrastructure-and-CICD/Infra_Audit_Engine), and zero manual production changes. | ITIL v4, SOC 2 CC8.1, ISO 27001 A.8.32 |
 | **[[Projects/Governance-and-Policies/Mobile_Device_Security_Policy|Mobile Device Security Policy]]** | Management of mobile operating systems (including [[Projects/Android/index|RPDev Mobile Ecosystem]]), Bring Your Own AI (BYOAI) guardrails, and hardware FIDO2 credentials. | NIST SP 800-124r2, ISO 27001 A.8.1 |
 
 ---
@@ -107,7 +107,7 @@ graph TD
 | Framework | Scope & Enforcement | Standards Alignment |
 |---|---|---|
 | **[[Projects/Governance-and-Policies/Incident_Response_Plan|Incident Response Plan (IRP)]]** | 6-phase response lifecycle: SOAR playbook orchestration, ransomware isolation protocols, deep-fake crisis communications, and regulatory reporting SLAs. | NIST SP 800-61r2, ISO 27035, SOC 2 CC7.3 |
-| **[[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan (DRP)]]** | Immutable multi-cloud backup air-gapping, bare-metal bootloader recovery via [[Projects/Hardware-Security/Ventoy_Tech_Super_Tool|Ventoy Super Tool]], and sub-1-hour RTO / sub-15-minute RPO targets. | ISO 22301, NIST SP 800-34r1, SOC 2 CC9.1 |
+| **[[Projects/Governance-and-Policies/Disaster_Recovery_Plan|Disaster Recovery Plan (DRP)]]** | Immutable multi-cloud backup air-gapping, bare-metal bootloader recovery via [Ventoy Super Tool](https://iamrp.dev/Projects/Hardware-Security/Ventoy_Tech_Super_Tool), and sub-1-hour RTO / sub-15-minute RPO targets. | ISO 22301, NIST SP 800-34r1, SOC 2 CC9.1 |
 | **[[Projects/Governance-and-Policies/Business_Impact_Analysis|Business Impact Analysis (BIA)]]** | Critical path dependency mapping, single points of failure (SPOF) identification, and SaaS / cloud outage tiering. | ISO 22317, NIST SP 800-34 |
 | **[[Projects/Governance-and-Policies/Global_Disruption_Policy|Global Disruption & Remote Operations]]** | Permanent distributed work resilience, zero-trust edge tunnels, and offline survivability protocols. | ISO 22301 Clause 8, NIST CSF RC.CO |
 
@@ -120,7 +120,7 @@ graph TD
 |---|---|---|
 | **[[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation & Safe Usage Guidelines]]** | Acceptable use policies for LLM tools, prompt injection defense, intellectual property protection, and customer data isolation. | NIST AI RMF 1.0, ISO/IEC 42001, OWASP Top 10 for LLM |
 | **[[Projects/Governance-and-Policies/Security_Awareness_Training|Modern Security Awareness Curriculum]]** | Continuous adaptive training curriculum focused on real-world deep-fakes, MFA fatigue resistance, spear phishing, and social engineering simulation. | NIST SP 800-50, ISO 27001 A.6.3 |
-| **[[Research-and-Ramblings/Articles/Philosophy|Technical Leadership & Management Philosophy]]** | Core engineering ethos: asynchronous autonomy, blameless post-mortems, psychological safety, and AI-augmented developer velocity. | Engineering Leadership Charter |
+| **[Technical Leadership & Management Philosophy](https://iamrp.dev/Research-and-Ramblings/Articles/Philosophy)** | Core engineering ethos: asynchronous autonomy, blameless post-mortems, psychological safety, and AI-augmented developer velocity. | Engineering Leadership Charter |
 
 ---
 
@@ -139,6 +139,6 @@ graph TD
 
 ## 🧭 Navigation & Cross-Links
 - Return to **[[Projects/index|All Projects Master Catalog]]**
-- Review live compliance telemetry in **[[Projects/Infrastructure-and-CICD/Infra_Audit_Engine|Infra Audit Engine]]**
-- Review SIEM detection rules in **[[Projects/Defensive-Security/Wazuh_CrowdSec_SIEM|Wazuh + CrowdSec Collaborative SIEM]]**
-- Inspect hardware key enforcement in **[[Projects/Hardware-Security/Hardware_Security_Key|FIDO2 + Age Hardware Secrets]]**
+- Review live compliance telemetry in **[Infra Audit Engine](https://iamrp.dev/Projects/Infrastructure-and-CICD/Infra_Audit_Engine)**
+- Review SIEM detection rules in **[Wazuh + CrowdSec Collaborative SIEM](https://iamrp.dev/Projects/Defensive-Security/Wazuh_CrowdSec_SIEM)**
+- Inspect hardware key enforcement in **[FIDO2 + Age Hardware Secrets](https://iamrp.dev/Projects/Hardware-Security/Hardware_Security_Key)**

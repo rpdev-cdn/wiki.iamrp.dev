@@ -117,9 +117,9 @@ services:
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]], [[Wazuh_CrowdSec_SIEM|Wazuh CrowdSec SIEM]], [[Current_Environment|Current Environment]].
+* **Production Systems:** Validated in [Infra Audit Engine](https://iamrp.dev/projects/infra_audit_engine), [Wazuh CrowdSec SIEM](https://iamrp.dev/projects/wazuh_crowdsec_siem), [Current Environment](https://iamrp.dev/homelab/Current_Environment).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Architecture/Systems_Automation|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [Systems and Automation Architecture](https://iamrp.dev/systems_automation).
 * **Applied Research:** Investigated in [[Research/Security_Analysis_and_Research_Agent/Tools_and_Telemetry|Tools and Telemetry]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

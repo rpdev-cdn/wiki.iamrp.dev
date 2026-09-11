@@ -54,9 +54,9 @@ To combat sophisticated ransomware threats, all backups must adhere to the follo
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Hardware_Storage_Tiering|Hardware Storage Tiering]], [[Projects/Kexecboot_Wireless_Bootloader|Kexecboot Wireless Bootloader]], [[Ventoy_Tech_Super_Tool|Ventoy Tech Super Tool]].
+* **Production Systems:** Validated in [Hardware Storage Tiering](https://iamrp.dev/homelab/Hardware_Storage_Tiering), [Kexecboot Wireless Bootloader](https://iamrp.dev/projects/kexecboot_wireless_bootloader), [Ventoy Tech Super Tool](https://iamrp.dev/projects/ventoy_tech_super_tool).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Business_Impact_Analysis|Business Impact Analysis]], [[Projects/Governance-and-Policies/Global_Disruption_Policy|Global Disruption Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Systems_Automation|Systems and Automation Architecture]].
+* **Technical Articles:** Deep dive in [Systems and Automation Architecture](https://iamrp.dev/Research-and-Ramblings/Articles/Systems_Automation).
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

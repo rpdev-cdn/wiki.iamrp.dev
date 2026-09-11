@@ -69,8 +69,8 @@ The agent's roadmap includes 129 newly identified research subjects across 43 sp
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Swarm Hub:** Return to the primary overview on [[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|index]].
-* **Research Swarm Modules:** Explore [[research/Research_Strategy|Research Strategy]], [[research/Sources_and_Matrix|Sources and Matrix]], [[research/Agents_and_Architecture|Agents and Architecture]].
-* **Production Systems:** Validated in [[Projects/Self_Hosted_CICD_Build_Fleet|Self Hosted CICD Build Fleet]].
+* **Research Swarm Modules:** Explore [Research Strategy](https://iamrp.dev/Research-and-Ramblings/Security-and-AI-Research/Research_Strategy), [[research/Sources_and_Matrix|Sources and Matrix]], [[research/Agents_and_Architecture|Agents and Architecture]].
+* **Production Systems:** Validated in [Self Hosted CICD Build Fleet](https://iamrp.dev/projects/self_hosted_cicd_build_fleet).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Security_Awareness_Training|Security Awareness Training]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Digital Garden Index]].

@@ -120,7 +120,7 @@ The following represents the broader scope of authored enterprise governance doc
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Governance Directory:** Return to the full **[[Projects/Governance-and-Policies/index|Enterprise Policies Directory]]** or **[[Governance/index|Enterprise Policy & Governance Hub]]**.
-* **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[[Infra_Audit_Engine|Infra Audit Engine]]** and **[[Unified_Fleet_Observability_Alloy|Unified Fleet Observability (Alloy)]]**.
+* **Audit & Telemetry Verification:** Compliance telemetry is monitored by **[Infra Audit Engine](https://iamrp.dev/projects/infra_audit_engine)** and **[Unified Fleet Observability (Alloy)](https://iamrp.dev/projects/unified_fleet_observability_alloy)**.
 * **Production Systems:** Practical architecture implementations in **[[Projects/index|Engineering & Systems Projects]]**.
-* **Master Credentials:** Review policy development and ISO/NIST audit experience on **[[Resume/Master_Resume|Curriculum Vitae & Master Resume]]** and **[[Resume/Legacy_Roles|Legacy Career Roles Archive]]**.
+* **Master Credentials:** Review policy development and ISO/NIST audit experience on **[Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume)** and **[Legacy Career Roles Archive](https://iamrp.dev/resume/legacy_roles)**.
 * **Digital Garden Hub:** Return to the home **[[content/Projects/Governance-and-Policies/index|Digital Garden Index]]**.

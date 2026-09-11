@@ -65,9 +65,9 @@ By accessing corporate resources, the employee acknowledges and agrees to comply
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Projects/Samsung_DeX_Linux_Bridge|Samsung DeX Linux Bridge]], [[FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Production Systems:** Validated in [Samsung DeX Linux Bridge](https://iamrp.dev/projects/samsung_dex_linux_bridge), [FIDO2 Security Toolkit](https://iamrp.dev/projects/fido2_security_toolkit).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [Zero Trust Edge Routing](https://iamrp.dev/Research-and-Ramblings/Articles/Zero_Trust_Edge).
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Compliance_and_Governance|Compliance and Governance]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

@@ -49,8 +49,8 @@ For environments processing public claims, lead-generation telemetry, or marketi
 ## 🔗 Related Architecture & Knowledge Graph
 
 * **Swarm Hub:** Return to the primary overview on [[Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|index]].
-* **Research Swarm Modules:** Explore [[research/Agents_and_Architecture|Agents and Architecture]], [[research/Research_Strategy|Research Strategy]], [[research/Tools_and_Telemetry|Tools and Telemetry]].
-* **Production Systems:** Validated in [[Infra_Audit_Engine|Infra Audit Engine]].
+* **Research Swarm Modules:** Explore [[research/Agents_and_Architecture|Agents and Architecture]], [Research Strategy](https://iamrp.dev/Research-and-Ramblings/Security-and-AI-Research/Research_Strategy), [[research/Tools_and_Telemetry|Tools and Telemetry]].
+* **Production Systems:** Validated in [Infra Audit Engine](https://iamrp.dev/projects/infra_audit_engine).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]], [[Projects/Governance-and-Policies/Data_Classification_Policy|Data Classification Policy]], [[Projects/Governance-and-Policies/Encryption_Policy|Encryption Policy]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Research-and-Ramblings/Security-and-AI-Research-and-Ramblings/index|Digital Garden Index]].

@@ -75,9 +75,9 @@ This migration completely eliminated port collisions and complex host-level rout
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[OpenWrt_Kernel_NFS_Manager|OpenWrt Kernel NFS Manager]], [[Builder_Manager_OCI_Pipeline|Builder Manager OCI Pipeline]].
+* **Production Systems:** Validated in [OpenWrt Kernel NFS Manager](https://iamrp.dev/projects/openwrt_kernel_nfs_manager), [Builder Manager OCI Pipeline](https://iamrp.dev/projects/builder_manager_oci_pipeline).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Infrastructure_Hardening_Policy|Infrastructure Hardening Policy]].
-* **Technical Articles:** Deep dive in [[Articles/Whitepapers/Zero_Trust_Edge|Zero Trust Edge Routing]].
+* **Technical Articles:** Deep dive in [Zero Trust Edge Routing](https://iamrp.dev/zero_trust_edge).
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

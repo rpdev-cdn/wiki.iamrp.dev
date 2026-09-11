@@ -43,9 +43,9 @@ Access logs and IoT sensor telemetry are continuously ingested into the centrali
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [[FIDO2_Security_Toolkit|FIDO2 Security Toolkit]].
+* **Production Systems:** Validated in [[Coral_Edge_TPU_Computer_Vision_NVR|Coral Edge TPU Computer Vision NVR]], [FIDO2 Security Toolkit](https://iamrp.dev/projects/fido2_security_toolkit).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Visitor_Policy|Visitor Policy]], [[Projects/Governance-and-Policies/Information_Security_Policy|Information Security Policy]].
-* **Technical Articles:** Deep dive in [[Research-and-Ramblings/Articles/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [Bare Metal Diagnostics Lessons](https://iamrp.dev/Research-and-Ramblings/Articles/Component_Repair).
 * **Applied Research:** Investigated in [[Research-and-Ramblings/Security-and-AI-Research/Lab_Requirements|Lab Requirements]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/Governance-and-Policies/index|Digital Garden Index]].

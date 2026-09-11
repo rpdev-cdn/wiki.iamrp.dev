@@ -114,9 +114,9 @@ To eliminate buffering and RTSP stream latency, `go2rtc` acts as a high-performa
 
 ## 🔗 Related Architecture & Knowledge Graph
 
-* **Production Systems:** Validated in [[Embedded_Linux_Camera_Firmware|Embedded Linux Camera Firmware]], [[Hardware_Storage_Tiering|Hardware Storage Tiering]].
+* **Production Systems:** Validated in [Embedded Linux Camera Firmware](https://iamrp.dev/embedded_linux_camera_firmware), [Hardware Storage Tiering](https://iamrp.dev/homelab/Hardware_Storage_Tiering).
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/Building_Security_Policy|Building Security Policy]].
-* **Technical Articles:** Deep dive in [[https://iamrp.dev/research-and-ramblings/articles/Component_Repair|Bare Metal Diagnostics Lessons]].
+* **Technical Articles:** Deep dive in [Bare Metal Diagnostics Lessons](https://iamrp.dev/component_repair).
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].

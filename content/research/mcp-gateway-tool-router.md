@@ -171,7 +171,7 @@ spec:
 
 * **Production Systems:** Validated in [[LLM_Control_Plane|LLM Control Plane]], [[Serverless_Cloudflare_MCP|Serverless Cloudflare MCP]].
 * **Governance & Compliance:** Governed by [[Projects/Governance-and-Policies/AI_Augmentation_for_Users|AI Augmentation for Users]].
-* **Technical Articles:** Deep dive in [[https://iamrp.dev/research-and-ramblings/articles/MCP_Enterprise|MCP In Enterprise Operations]].
+* **Technical Articles:** Deep dive in [MCP In Enterprise Operations](https://iamrp.dev/articles/mcp_enterprise).
 * **Applied Research:** Investigated in [[Local_LLM_Architecture|Local LLM Architecture]], [[research/Tools_and_Telemetry|Tools and Telemetry]].
-* **Master Credentials:** Review core competencies on [[Resume/Master_Resume|Curriculum Vitae & Master Resume]].
+* **Master Credentials:** Review core competencies on [Curriculum Vitae & Master Resume](https://iamrp.dev/resume/master_resume).
 * **Digital Garden Hub:** Return to the main [[content/Projects/index|Digital Garden Index]].
