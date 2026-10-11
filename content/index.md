@@ -69,6 +69,13 @@ description: "The welcoming knowledge base, user manual, and technical registry 
     <span class="card-tag">View Repositories →</span>
   </a>
 
+  <a class="portal-card" href="/dns-forge/">
+    <div class="card-icon">🛡️</div>
+    <div class="card-title">DNS Forge Wiki (v1.2.0)</div>
+    <div class="card-desc">Sovereign NextDNS Firefox extension manual: real-time DoH PoP telemetry, bounded concurrency engine, SSE query stream, and intelligent tab debugging.</div>
+    <span class="card-tag">Extension Manual →</span>
+  </a>
+
   <a class="portal-card" href="/projects/">
     <div class="card-icon">🏗️</div>
     <div class="card-title">Projects Documentation Hub</div>

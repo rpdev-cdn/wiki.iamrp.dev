@@ -60,7 +60,7 @@ graph TD
 - **[[projects/mobile-stack|Mobile Stack Unified Architecture]]** — *End-to-end specification connecting launcher, feed overlay, and edge CDN.*
 
 ### 🛡️ Security & AI Research Hub
-- **[[projects/Security/dns-forge-firefox-addon|DNS Forge NextDNS Firefox Addon]]** `92% [Production Ready]` — *AMO-compliant MV3 extension with single delegated event listener and SSE log parser.*
+- **[[dns-forge/index|DNS Forge NextDNS Firefox Addon (v1.2.0)]]** `98% [Production GA]` — *AMO-compliant MV3 extension, bounded concurrency worker, live PoP diagnostics, rich device attribution, and complete **[[dns-forge/index|Technical Wiki]]** (also see **[[projects/Security/dns-forge-firefox-addon|Architecture Overview]]**).*
 - **[[projects/Security/mcp-gateway|MCP Security Gateway]]** `50% [Architectural Prototype]` — *Dockerized security proxy, token authentication, and tool execution boundaries for AI agents.*
 - **[[projects/Security/cloudflare-mcp|Cloudflare MCP Integrations]]** `40-45% [Alpha]` — *Authenticated and anonymous tool interfaces for Cloudflare infrastructure.*
 - **[[projects/Security/fido2-age|FIDO2 + Age Hardware Secrets]]** `95% [Production]` — *Physical security key derivation, PAM hardware authentication, and chezmoi integration.*

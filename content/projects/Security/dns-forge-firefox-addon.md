@@ -11,15 +11,16 @@ tags:
 ---
 
 > [!note] Project Documentation Wiki
-> *This document is part of the **[[projects/index|RPDev Projects Knowledge Base]]**. For the high-level portfolio overview, visit [iamrp.dev](https://iamrp.dev).*
+> *This document is part of the **[[projects/index|RPDev Projects Knowledge Base]]**. For the comprehensive documentation manual, architecture guides, and API references, explore the **[[dns-forge/index|DNS Forge Complete Technical Wiki]]**.*
 
-> [!info] Project Maturity: **92% — Release-Ready Extension (Tier 5)**
-> - **Lifecycle Status**: Release Candidate (AMO Compliant)
-> - **Active Components**: Manifest V3 extension, single delegated document event listener, strict NextDNS JSON schema mapping, Server-Sent Events (SSE) query log parser, Jest tests
-> - **Pending Enhancements**: Official Mozilla Add-ons (AMO) store listing publication
+> [!info] Project Maturity: **98% — Production GA Extension (Tier 5)**
+> - **Lifecycle Status**: Production Release (`v1.2.0`)
+> - **Active Components**: Manifest V3 extension, bounded concurrency worker (`mapConcurrent`), live NextDNS edge PoP status indicators, real-time Server-Sent Events (SSE) query stream parser, integrated network RTT latency diagnostics, 17 Jest test suites (128 passing tests).
+> - **Compliance**: 100% Mozilla AMO Compliant (0 errors, 0 warnings, 0 notices via `addons-linter`).
+> - **Full Documentation Sub-Wiki**: **[[dns-forge/index|DNS Forge Wiki Portal]]**
 
 # DNS Forge: Sovereign NextDNS Firefox Privacy Extension
-## **Manifest V3 WebExtension, Real-Time Server-Sent Events (SSE) Stream Parsing & Automated Blocklist Correlation**
+## **Manifest V3 WebExtension, Real-Time Server-Sent Events (SSE) Stream Parsing, PoP Diagnostics & Automated Blocklist Correlation**
 
 > [!abstract] Architectural Summary
 > Modern privacy-focused web browsing requires dynamic, fine-grained control over DNS-over-HTTPS (DoH) routing and real-time blocklist auditing. **DNS Forge** is a modular Firefox WebExtension built to interface directly with NextDNS APIs, providing real-time Server-Sent Events (SSE) log streaming, blocklist correlation, automated security rule auditing, and multi-profile synchronization.
@@ -48,9 +49,9 @@ graph TD
 ## 1. Sovereign Self-Hosted Distribution (`firefox.repo.iamrp.dev`)
 
 In addition to upstream AMO review, DNS Forge is distributed directly via the sovereign distribution portal at **[`https://firefox.repo.iamrp.dev/`](https://firefox.repo.iamrp.dev/)** (Master Hub: [`https://repo.iamrp.dev`](https://repo.iamrp.dev)):
-- **Direct Add-on Package**: [`dns-forge-v1.0.0.xpi`](https://firefox.repo.iamrp.dev/addons/nextdns-firefox-addon-1.0.0.xpi)
+- **Direct Add-on Package**: [`dns_forge-1.2.0.xpi`](https://github.com/RPDevs-Builds/nextdns-firefox-addon/releases/download/v1.2.0/dns_forge-1.2.0.xpi)
 - **Automatic Updates Manifest**: [`https://firefox.repo.iamrp.dev/updates.json`](https://firefox.repo.iamrp.dev/updates.json)
-- **Integrity Checksum (SHA-256)**: `461cf346e7032af83599b311d6e9b60a43b8bdb116b32e068b9408b7010f0ee4`
+- **Package Version**: `v1.2.0`
 
 ---
 
@@ -98,6 +99,7 @@ The repository enforces automated validation on every commit via GitHub Actions 
 ---
 
 ## 🧭 Navigation & Related Documentation
+- Complete Technical Manual: **[[dns-forge/index|DNS Forge Comprehensive Documentation & Reference Wiki]]**
 - Review edge firewalling in **[[projects/Networking/openwrt-asu-builder|OpenWrt ASU Custom Firmware Builder]]**
 - Understand hardware secrets in **[[projects/Security/fido2-age|FIDO2 + Age Hardware Secrets]]**
 - Return to **[[projects/index|Projects Documentation Hub]]**
