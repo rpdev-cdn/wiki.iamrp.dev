@@ -17,7 +17,7 @@ DNS Forge - Blocks & Toggles UI Module
     * _static_
         * [.syncLists([force])](#module_ui/blocks.syncLists)
         * [.renderLists([queryOverride])](#module_ui/blocks.renderLists)
-        * [.loadToggles([queryOverride])](#module_ui/blocks.loadToggles)
+        * [.loadToggles([queryOverride], [force])](#module_ui/blocks.loadToggles)
     * _inner_
         * [~renderSecurityToggles()](#module_ui/blocks..renderSecurityToggles) ⇒ <code>string</code>
         * [~renderPerformanceToggles()](#module_ui/blocks..renderPerformanceToggles) ⇒ <code>string</code>
@@ -51,7 +51,7 @@ Renders the Allowlist or Denylist in the "Lists" tab or Protection sub-tab.
 
 
 
-### ui/blocks.loadToggles([queryOverride])
+### ui/blocks.loadToggles([queryOverride], [force])
 Loads and renders the block settings toggles based on the current sub-tab and search query.
 
 **Kind**: static method of [<code>ui/blocks</code>](#module_ui/blocks)  
@@ -59,6 +59,7 @@ Loads and renders the block settings toggles based on the current sub-tab and se
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
 | [queryOverride] | <code>string</code> \| <code>null</code> | <code>null</code> | Optional search query override. |
+| [force] | <code>boolean</code> | <code>false</code> | Whether to force a re-fetch of settings. |
 
 
 

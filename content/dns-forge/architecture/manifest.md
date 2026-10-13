@@ -16,7 +16,7 @@ The `manifest.json` defines the core configuration, permissions, and background 
 | Property | Value |
 | --- | --- |
 | **Name** | DNS Forge |
-| **Version** | 1.2.0 |
+| **Version** | 1.2.4 |
 | **Manifest Version** | 3 |
 | **Description** | Comprehensive NextDNS management tool: blocklists, allowlists, live query logs, analytics, scheduling, and web UI enhancements. |
 
@@ -33,6 +33,9 @@ The following permissions are required for the extension to operate correctly.
 | `webRequestBlocking` | Access required for core functionality. |
 | `https://api.nextdns.io/*` | Host access for NextDNS API. |
 | `https://test.nextdns.io/*` | Host access for NextDNS API. |
+| `https://*.test.nextdns.io/*` | Host access for NextDNS API. |
+| `https://dns.nextdns.io/*` | Host access for NextDNS API. |
+| `https://router.nextdns.io/*` | Host access for NextDNS API. |
 | `<all_urls>` | Host access for NextDNS API. |
 
 ## Background & Content Scripts

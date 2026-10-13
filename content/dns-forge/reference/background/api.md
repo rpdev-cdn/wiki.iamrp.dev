@@ -16,11 +16,13 @@ including domain management, profile detection, and DDNS updates.
 
 
 * [background/api](#module_background/api)
-    * [.manageDomain(profileId, listType, domain, action)](#module_background/api.manageDomain) ⇒ <code>Promise.&lt;Object&gt;</code>
-    * [.detectActiveProfile()](#module_background/api.detectActiveProfile) ⇒ <code>Promise.&lt;({id: string, name: string}\|null)&gt;</code>
-    * [.updateProfileCache()](#module_background/api.updateProfileCache)
-    * [.checkAndUpdateLinkedIP()](#module_background/api.checkAndUpdateLinkedIP)
-    * [.runNetworkDiagnostics()](#module_background/api.runNetworkDiagnostics) ⇒ <code>Promise.&lt;Object&gt;</code>
+    * _static_
+        * [.manageDomain(profileId, listType, domain, action)](#module_background/api.manageDomain) ⇒ <code>Promise.&lt;Object&gt;</code>
+        * [.detectActiveProfile()](#module_background/api.detectActiveProfile) ⇒ <code>Promise.&lt;({id: string, name: string}\|null)&gt;</code>
+        * [.checkAndUpdateLinkedIP()](#module_background/api.checkAndUpdateLinkedIP)
+        * [.runNetworkDiagnostics()](#module_background/api.runNetworkDiagnostics) ⇒ <code>Promise.&lt;Object&gt;</code>
+    * _inner_
+        * [~updateCacheInFlight](#module_background/api..updateCacheInFlight)
 
 
 
@@ -43,17 +45,11 @@ Supports adding, deleting, and listing entries.
 ### background/api.detectActiveProfile() ⇒ <code>Promise.&lt;({id: string, name: string}\|null)&gt;</code>
 Detects the currently active NextDNS profile.
 Prioritizes a user-defined override, then diagnostic tests, and finally the account profile list.
+Deduplicates in-flight calls to avoid racing and duplicate network roundtrips.
 Updates the storage with the identified profile ID and name.
 
 **Kind**: static method of [<code>background/api</code>](#module_background/api)  
 **Returns**: <code>Promise.&lt;({id: string, name: string}\|null)&gt;</code> - The detected profile object or null.  
-
-
-### background/api.updateProfileCache()
-Synchronizes the background state cache with the current profile's allowlist and denylist.
-Persists the lists to storage to survive event page suspension.
-
-**Kind**: static method of [<code>background/api</code>](#module_background/api)  
 
 
 ### background/api.checkAndUpdateLinkedIP()
@@ -70,3 +66,10 @@ Inspired by official NextDNS diag tool (github.com/nextdns/diag).
 
 **Kind**: static method of [<code>background/api</code>](#module_background/api)  
 **Returns**: <code>Promise.&lt;Object&gt;</code> - Diagnostic result payload.  
+
+
+### background/api~updateCacheInFlight
+Synchronizes the background state cache with the current profile's allowlist and denylist.
+Persists the lists to storage to survive event page suspension.
+
+**Kind**: inner property of [<code>background/api</code>](#module_background/api)  
